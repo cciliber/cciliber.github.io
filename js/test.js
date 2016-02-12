@@ -33,7 +33,6 @@ window.onload = function onload_window() {
     var basicBackgroundColor = getColorOfElement(document.getElementsByTagName('a')[0]);
     
     
-    
     function init_project(project_name) {
         
 //        var modal = document.getElementsByClassName('research-modal _project-' + project_name)[0];

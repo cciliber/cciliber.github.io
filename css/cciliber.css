@@ -1,3 +1,9 @@
+@font-face {
+  font-family: CaviarDreams;
+  src: url("../fonts/CaviarDreams.ttf"); }
+@font-face {
+  font-family: Alegreya;
+  src: url("../fonts/AlegreyaRegular.otf"); }
 a {
   text-decoration: none;
   color: cornflowerblue; }
@@ -24,8 +30,8 @@ header {
   z-index: 9999;
   background-color: white; }
   header a {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
     flex-grow: 1;
     flex-shrink: 1;
     text-align: center;
@@ -33,13 +39,26 @@ header {
     color: inherit; }
 
 /*   
-Section: Landing - the 'Home' section
+Section stuff
 */
+section.diamond::before {
+  position: absolute;
+  background: inherit;
+  width: 6em;
+  height: 6em;
+  left: calc(50% - 3em);
+  top: -3em;
+  content: '';
+  transform: rotate(45deg); }
+
 section {
+  position: relative;
   text-align: center;
   padding-top: 3em;
+  padding-bottom: 2em;
   width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  background: white; }
 
 section > * {
   width: 80%;
@@ -57,32 +76,42 @@ section > h1 {
 Section: Landing - the 'Home' section
 */
 section.landing {
-  background-image: url(../img/background_blur_small.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 0; }
-  section.landing .title-container {
-    display: inline-block;
-    position: absolute;
-    color: white;
-    width: auto;
-    top: 50%;
-    left: 10%;
-    animation-name: ciao;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s; }
-    section.landing .title-container h1 {
-      font-size: 4em;
-      margin: 0;
-      font-family: sans-serif;
-      color: #285DAE; }
-    section.landing .title-container h2 {
-      margin: 0;
-      font-size: 2em;
-      font-family: fantasy; }
+  background-color: transparent;
+  padding: 0; }
+  section.landing div.landing {
+    background-image: url(../img/background_blur_small_comp.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1000; }
+    section.landing div.landing .title-container {
+      display: inline-block;
+      position: absolute;
+      color: white;
+      width: auto;
+      top: 25%;
+      left: 5%;
+      text-align: left; }
+      section.landing div.landing .title-container div.stuff {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4; }
+      section.landing div.landing .title-container h1 {
+        font-size: 7em;
+        margin: 0;
+        font-family: CaviarDreams;
+        color: cornflowerblue;
+        text-transform: none; }
+      section.landing div.landing .title-container h2 {
+        display: inline-block;
+        margin: 0;
+        font-size: 2em;
+        font-family: Alegreya;
+        color: #CE534C; }
 
 @keyframes ciao {
   0% {
@@ -92,6 +121,10 @@ section.landing {
 /*   
 Section: Research
 */
+section#research {
+  background-color: cornflowerblue;
+  color: white; }
+
 .research-container {
   display: flex;
   flex-direction: row;
@@ -383,9 +416,15 @@ Research modal take 2
   padding-top: 2em;
   padding-bottom: 2em; }
   .activity-container .activity {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 480px; }
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 60%; }
+    @media screen and (min-width: 700px) {
+      .activity-container .activity {
+        flex-basis: 40%; } }
+    @media screen and (min-width: 1100px) {
+      .activity-container .activity {
+        flex-basis: 33%; } }
   .activity-container figure {
     position: relative;
     text-align: center;
