@@ -70,6 +70,9 @@ $color-gray: #D4D6D8;
 }
 
 
+html {
+ height: 100%;   
+}
 
 
 
@@ -92,6 +95,7 @@ a:active {
 
 
 body {
+    height: 100%;
     margin:0;
     font-family: $cciliber-font-family;
     font-size: $cciliber-font-size;
@@ -110,9 +114,17 @@ header {
     
     z-index: 9999;
     
-    
     background-color: white;
     
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+//    
+//    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+//    background: transparent;
+
+//    position: absolute;
+    top:0;
     
     // links 
     a {
@@ -130,7 +142,11 @@ header {
 
 
 
-
+main {
+ 
+    min-height: 100%;
+    
+}
 
 
 
@@ -216,10 +232,18 @@ section.landing {
     
     div.landing {
         background-image: url(../img/background_blur_small_comp.jpg);
-//        background-attachment: fixed;
+        background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        
+//        background-color: white;
+        background-color: rgba(255,255,255,0.5);
+        
+        
+        background-blend-mode: soft-light;
+        
+        
 
         width: 100%;
         height: 100%;
@@ -227,8 +251,11 @@ section.landing {
         z-index: -1000;
         
 
+                
         .title-container {
 
+            background: transparent;
+            
             display: inline-block;
             position: absolute;
             color: white;
@@ -258,7 +285,6 @@ section.landing {
                 
                 text-transform: none;
     //            background: white;
-
 
 
             }
@@ -316,6 +342,8 @@ section#research {
 
     margin-left: -$research-project-margin; 
     margin-right: -$research-project-margin;
+    
+    padding-bottom: 6em;
     
     .research-project {
         flex-grow: 1;
@@ -380,11 +408,12 @@ section#research {
     perspective: 800px;
     margin: 0;
     width: 100%;
-	height: 100%;    
- 	transition: all 0.4s ease-in-out;
+	height: 100%;
+
+    transition: all 0.4s ease-in-out;
 	transform-style: preserve-3d;
-    display: inline-block;
     
+    display: inline-block;
 }
 
 .flip-logo > div {
@@ -393,6 +422,7 @@ section#research {
     position: absolute;
     left:0;
     top:0;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
@@ -402,11 +432,13 @@ section#research {
 	transform: rotate3d(0,1,0,180deg);
 }
 
+
 .flip-logo-container:hover, .flip-logo-container.active {
     
     .flip-logo {
 	   transform: rotate3d(0,1,0,-180deg);
     }
+    
 }
 
 
