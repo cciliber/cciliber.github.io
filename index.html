@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="prova1.css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" id="s_navbar1">
+    <div class="container">
+      <!-- <img class="img-fluid d-block" src="name.png" width="10%" height="10%"> -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon">       </span>Carlo Ciliberto</button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/cciliber">Software</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://cciliber.github.io/intro-slt/">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#s_footer4">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Carlo_Ciliberto_CV.pdf">CV</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="pt-3 pb-1 text-white bg-primary" id="s_cover3">
+    <div class="container">
+      <div class="row">
+        <div class="text-md-left text-center align-self-center my-2 col-md-7">
+          <h1 class="display-3 text-right">Carlo Ciliberto</h1>
+          <p class="lead text-right"> Machine Learning Researcher&nbsp;
+            <br> University College London &nbsp;</p>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+          <img id="c_img" class="img-fluid d-block rounded-circle mx-auto" src="carlo_ciliberto.jpg"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div id="c_row-2col-a" class="row">
+        <div class="col-md-12" id="publications">
+          <div id="template-pub">
+            <div class="btn-light alert py-2 my-2 border border-secondary" onclick="$(this).next().toggle()">
+              <p class="lead py-0 my-0"> <span class="alert alert-success p-1 text-success lead" type="tipo" style="font-size:smaller"> <span class="venue" style="font-weight: bolder;">NIPS</span> <span class="date">2017</span></span> <span class="title" style="display:inline-block">Prova</span>
+                <br> <span class="authors" style="font-size:smaller; font-style:italic; font-weight: bolder;">Autori</span>
+                <a class="checkempty link-pdf px-2" href="" style="display:inline; float:right"><i class="fa fa-file-pdf-o"></i></a>
+                <a class="link-code checkempty px-2" style="display:inline; float:right" href=""><i class="fa fa-code"></i></a>
+                <a class="link-video checkempty px-2" href="" style="display:inline; float:right"><i class="fa fa-film"></i></a>
+                <a class="link-slides checkempty px-2" href="" style="display:inline; float:right;">slides</a>
+              </p>
+            </div>
+            <div class="addInfo alert border border-secondary">
+              <div style="display:block; width:100%">
+                <img class="picture" style="width:30%; display:inline; float:right" src=""> </div>
+              <p class="abstract text-justify">Abstract</p>
+              <pre class="bibtex" style="font-size:smaller">                bibtex
+              </pre> </div>
+          </div>
+          <div id="pub-list-container">
+            <h1 class="" id="c_heading" style="display:inline">Publications
+              <input class="search form-control" placeholder="Search" style="width:38.2%; display:inline; float:right"> </h1>
+            <div class="list"> </div>
+          </div>
+          <div id="list-source-container">
+            <ul class="list">
+
+
+              <li>
+                <h3 class="title">Quantum machine learning: a classical perspective</h3> <span class="authors">Carlo Ciliberto, Mark Herbster, Alessandro Davide Ialongo, Massimiliano Pontil, Andrea Rocchetto, Simone Severini, Leonard Wossnig</span> <span class="venue type relevance addmsg" type="conference" relevance="2">Proceeding of the Royal Society A</span>                <span class="date">2018</span>
+                <p class="abstract"> Recently, increased computational power and data availability, as well as algorithmic advances, have led machine learning (ML) techniques to impressive results in regression, classification, data generation and reinforcement learning tasks. Despite these successes, the proximity to the physical limits of chip fabrication alongside the increasing size of datasets is motivating a growing number of researchers to explore the possibility of harnessing the power of quantum computation to speed up classical ML algorithms. Here we review the literature in quantum ML and discuss perspectives for a mixed readership of classical ML and quantum computation experts. Particular emphasis will be placed on clarifying the limitations of quantum algorithms, how they compare with their best classical counterparts and why quantum resources are expected to provide advantages for learning problems. Learning in the presence of noise and certain computationally hard problems in ML are identified as promising directions for the field. Practical questions, such as how to upload classical data into quantum form, will also be addressed. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1707.08561.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="">
+                <pre class="bibtex">@article {ciliberto2018quantum,
+    author = {Ciliberto, Carlo and Herbster, Mark and Ialongo, Alessandro Davide and Pontil, Massimiliano and Rocchetto, Andrea and Severini, Simone and Wossnig, Leonard},
+    title = {Quantum machine learning: a classical perspective},
+    volume = {474},
+    number = {2209},
+    year = {2018},
+    doi = {10.1098/rspa.2017.0551},
+    publisher = {The Royal Society},
+    issn = {1364-5021},
+    URL = {http://rspa.royalsocietypublishing.org/content/474/2209/20170551},
+    eprint = {http://rspa.royalsocietypublishing.org/content/474/2209/20170551.full.pdf},
+    journal = {Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences}
+}
+
+                </pre>
+                <p class="tags">machine learning, quantum computing, large scale learning</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Consistent Multitask Learning with Nonlinear Output Relations</h3> <span class="authors">Carlo Ciliberto, Alessandro Rudi, Lorenzo Rosasco, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="2">NIPS</span>                <span class="date">2017</span>
+                <p class="abstract"> Key to multitask learning is exploiting relationships between different tasks to improve prediction performance. If the relations are linear, regularization approaches can be used successfully. However, in practice assuming the tasks to
+                  be linearly related might be restrictive, and allowing for nonlinear structures is a challenge. In this paper, we tackle this issue by casting the problem within the framework of structured prediction. Our main contribution is a novel
+                  algorithm for learning multiple tasks which are related by a system of nonlinear equations that their joint outputs need to satisfy. We show that the algorithm is consistent and can be efficiently implemented. Experimental results show
+                  the potential of the proposed method. </p>
+                <a class="link-pdf" href="http://arxiv.org/pdf/1705.08118">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="papers/mtl-nips17/slides.pdf">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/mtl-nips17/pic.svg">
+                <pre class="bibtex">@article{ciliberto2017consistent,
+    title={Consistent Multitask Learning with Nonlinear Output Relations},
+    author={Ciliberto, Carlo and Rudi, Alessandro and Rosasco, Lorenzo and Pontil, Massimiliano},
+    journal={arXiv preprint arXiv:1705.08118},
+    year={2017}
+}
+                </pre>
+                <p class="tags">structured-prediction multitask-learning non-linear-multitask learning kernel-methods </p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Visual recognition for humanoid robots</h3> <span class="authors"> Sean Ryan Fanello, Carlo Ciliberto, Nicoletta Noceti, Giorgio Metta, Francesca Odone</span> <span class="venue type relevance addmsg" type="conference" relevance="2">Robotics and Autonomous Systems</span>                <span class="date">2017</span>
+                <p class="abstract">Visual perception is a fundamental component for most robotics systems operating in human environments. Specifically, visual recognition is a prerequisite to a large variety of tasks such as tracking, manipulation, human–robot interaction. As a consequence, the lack of successful recognition often becomes a bottleneck for the application of robotics system to real-world situations. In this paper we aim at improving the robot visual perception capabilities in a natural, human-like fashion, with a very limited amount of constraints to the acquisition scenario. In particular our goal is to build and analyze a learning system that can rapidly be re-trained in order to incorporate new evidence if available. To this purpose, we review the state-of-the-art coding–pooling pipelines for visual recognition and propose two modifications which allow us to improve the quality of the representation, while maintaining real-time performances: a coding scheme, Best Code Entries (BCE), and a new pooling operator, Mid-Level Classification Weights (MLCW). The former focuses entirely on sparsity and improves the stability and computational efficiency of the coding phase, the latter increases the discriminability of the visual representation, and therefore the overall recognition accuracy of the system, by exploiting data supervision. The proposed pipeline is assessed from a qualitative perspective on a Human–Robot Interaction (HRI) application on the iCub platform. Quantitative evaluation of the proposed system is performed both on in-house robotics data-sets (iCubWorld) and on established computer vision benchmarks (Caltech-256, PASCAL VOC 2007). As a byproduct of this work, we provide for the robotics community an implementation of the proposed visual recognition pipeline which can be used as perceptual layer for more complex robotics applications.</p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/visual-rec/pic.svg">
+                <pre class="bibtex">@article{fanello2017visual,
+    title={Visual recognition for humanoid robots},
+    author={Fanello, Sean Ryan and Ciliberto, Carlo and Noceti, Nicoletta and Metta, Giorgio and Odone, Francesca},
+    journal={Robotics and Autonomous Systems},
+    volume={91},
+    pages={151--168},
+    year={2017},
+    publisher={Elsevier}
+}
+                </pre>
+                <p class="tags">machine learning, vision, robotics </p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Incremental Robot Learning of New Objects with Fixed Update Time</h3> <span class="authors">Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale, Lorenzo Rosasco, Giorgio Metta</span> <span class="venue type relevance addmsg" type="conference" relevance="2">ICRA</span>                <span class="date">2017</span>
+                <p class="abstract">We consider object recognition in the context of lifelong learning, where a robotic agent learns to discriminate between a growing number of object classes as it accumulates experience about the environment. We propose an incremental variant of the Regularized Least Squares for Classification (RLSC) algorithm, and exploit its structure to seamlessly add new classes to the learned model. The presented algorithm addresses the problem of having an unbalanced proportion of training examples per class, which occurs when new objects are presented to the system for the first time. 
+We evaluate our algorithm on both a machine learning benchmark dataset and two challenging object recognition tasks in a robotic setting. Empirical evidence shows that our approach achieves comparable or higher classification performance than its batch counterpart when classes are unbalanced, while being significantly faster.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1605.05045.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/incremental-learning/pic.svg">
+                <pre class="bibtex">@inproceedings{camoriano2017incremental,
+  title={Incremental robot learning of new objects with fixed update time},
+  author={Camoriano, Raffaello and Pasquale, Giulia and Ciliberto, Carlo and Natale, Lorenzo and Rosasco, Lorenzo and Metta, Giorgio},
+  booktitle={Robotics and Automation (ICRA), 2017 IEEE International Conference on},
+  pages={3207--3214},
+  year={2017},
+  organization={IEEE}
+}
+                </pre>
+                <p class="tags">machine learning, vision, robotics </p>
+              </li>
+
+
+              <li>
+                <h3 class="title">Connecting YARP to the Web with yarp.js</h3> <span class="authors">Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Frontiers in Robotics and AI</span>                <span class="date">2017</span>
+                <p class="abstract"> We present yarp.js, a JavaScript framework enabling robotics networks to interface and interact with external devices by exploiting modern Web communication protocols. By connecting a YARP server module with a browser client on any external device, yarp.js allows to access on board sensors using standard Web APIs and stream the acquired data through the yarp.js network without the need for any installation. Communication between YARP modules and yarp.js clients is bi-directional, opening also the possibility for robotics applications to exploit the capabilities of modern browsers to process external data, such as speech synthesis, 3D data visualization, or video streaming to name a few. Yarp.js requires only a browser installed on the client device, allowing for fast and easy deployment of novel applications. The code and sample applications to get started with the proposed framework are available for the community at the yarp.js GitHub repository. </p>
+                <a class="link-pdf" href="http://arxiv.org/pdf/1605.07588">pdf</a>
+                <a class="link-code" href="https://github.com/robotology/yarp.js">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/yarp-js/pic.svg">
+                <pre class="bibtex">@article{10.3389/frobt.2017.00067,
+    author={Ciliberto, Carlo},    
+    title={Connecting YARP to the Web with Yarp.js},      
+    journal={Frontiers in Robotics and AI},            
+    volume={4},      
+    pages={67},     
+    year={2017},      
+    URL={https://www.frontiersin.org/article/10.3389/frobt.2017.00067},         
+    DOI={10.3389/frobt.2017.00067},            
+    ISSN={2296-9144},   
+}
+</pre>
+                <p class="tags"> YARP, robotics </p>
+              </li>
+
+
+              <li>
+                <h3 class="title">A Consistent Regularization Approach for Structured Prediction</h3> <span class="authors">Carlo Ciliberto, Alessandro Rudi, Lorenzo Rosasco</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NIPS</span>                <span class="date">2016</span>
+                <p class="abstract"> We propose and analyze a regularization approach for structured prediction problems. We characterize a large class of loss functions that allows to naturally embed structured outputs in a linear space. We exploit this fact to design learning
+                  algorithms using a surrogate loss approach and regularization techniques. We prove universal consistency and finite sample bounds characterizing the generalization properties of the proposed method. Experimental results are provided
+                  to demonstrate the practical usefulness of the proposed approach. </p>
+                <a class="link-pdf" href="http://arxiv.org/pdf/1605.07588">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="papers/sp-nips16/slides.pdf">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/sp-nips16/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2016consistent,
+  title={A Consistent Regularization Approach for Structured Prediction},
+  author={Ciliberto, Carlo and Rosasco, Lorenzo and Rudi, Alessandro},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={4412--4420},
+  year={2016}
+}
+</pre>
+                <p class="tags"> machine learning, robotics, incremental learning</p>
+              </li>
+
+
+
+              <li>
+                <h3 class="title">Combining sensory modalities and exploratory procedures to improve haptic object recognition in robotics</h3> <span class="authors">Bertrand Higy, Carlo Ciliberto, Lorenzo Rosasco, Lorenzo Natale</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Humanoids</span>                <span class="date">2016</span>
+                <p class="abstract"> In this paper we tackle the problem of object
+                  recognition using haptic feedback from a robot holding and
+                  manipulating different objects. One of the main challenges
+                  in this setting is to understand the role of different sensory
+                  modalities (namely proprioception, object weight from F/T
+                  sensors and touch) and how to combine them to correctly
+                  discriminate different objects. We investigated these aspects by considering multiple sensory
+                  channels and different exploratory strategies to gather meaningful
+                  information regarding the object’s physical properties.
+                  We propose a novel strategy to train a learning machine able to
+                  efficiently combine sensory modalities by first learning individual
+                  object features and then combine them in a single classifier.
+                  To evaluate our approach and compare it with previous methods
+                  we collected a dataset for haptic object recognition, comprising
+                  11 objects that were held in the hands of the iCub robot while
+                  performing different exploration strategies. Results show that
+                  our strategy consistently outperforms previous approaches.
+                </p>
+                <a class="link-pdf" href="https://www.researchgate.net/profile/Bertrand_Higy/publication/312112438_Combining_sensory_modalities_and_exploratory_procedures_to_improve_haptic_object_recognition_in_robotics/links/5a046771a6fdcc1c2f5fafa2/Combining-sensory-modalities-and-exploratory-procedures-to-improve-haptic-object-recognition-in-robotics.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/haptic-bert/pic.svg">
+                <pre class="bibtex">@inproceedings{higy2016combining,
+  title={Combining sensory modalities and exploratory procedures to improve haptic object recognition in robotics},
+  author={Higy, Bertrand and Ciliberto, Carlo and Rosasco, Lorenzo and Natale, Lorenzo},
+  booktitle={Humanoid Robots (Humanoids), 2016 IEEE-RAS 16th International Conference on},
+  pages={117--124},
+  year={2016},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, robotics, haptic recognition</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Active perception: Building objects' models using tactile exploration</h3> <span class="authors">Nawid Jamali, Carlo Ciliberto, Lorenzo Rosasco, Lorenzo Natale</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Humanoids</span>                <span class="date">2016</span>
+                <p class="abstract"> In this paper we present an efficient active learning strategy applied to the problem of tactile exploration of an object's surface. The method uses Gaussian process (GPs) classification to efficiently sample the surface of the object in order to reconstruct its shape. The proposed method iteratively samples the surface of the object, while, simultaneously constructing a probabilistic model of the object's surface. The probabilities in the model are used to guide the exploration. At each iteration, the estimate of the object's shape is used to slice the object in equally spaced intervals along the height of the object. The sampled locations are then labelled according to the interval in which their height falls. In its simple form, the data are labelled as belonging to the object and not belonging to the object: object and no-object, respectively. A GP classifier is trained to learn the object/no-object decision boundary. The next location to be sampled is selected at the classification boundary, in this way, the exploration is biased towards more informative areas. Complex features of the object's surface is captured by increasing the number of intervals as the number of sampled locations is increased. We validated our approach on six objects of different shapes using the iCub humanoid robot. Our experiments show that the method outperforms random selection and previous work based on GP regression by sampling more points on and near-the-boundary of the object.
+                </p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/haptic-jamali/pic.svg">
+                <pre class="bibtex">@inproceedings{jamali2016active,
+    title={Active perception: Building objects' models using tactile exploration},
+    author={Jamali, Nawid and Ciliberto, Carlo and Rosasco, Lorenzo and Natale, Lorenzo},
+    booktitle={Humanoid Robots (Humanoids), 2016 IEEE-RAS 16th International Conference on},
+    pages={179--185},
+    year={2016},
+    organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, robotics, haptic recognition, active learning</p>
+              </li>
+
+
+
+              <li>
+                <h3 class="title">  
+Object identification from few examples by improving the invariance of a deep convolutional neural network</h3> <span class="authors">Giulia Pasquale, Carlo Ciliberto, Lorenzo Rosasco,  Lorenzo Natale</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2016</span>
+                <p class="abstract"> 
+                  The development of reliable and robust visual recognition systems is a main challenge towards the deployment of autonomous robotic agents in unconstrained environments. Learning to recognize objects requires image representations that are discriminative to relevant information while being invariant to nuisances, such as scaling, rotations, light and background changes, and so forth. Deep Convolutional Neural Networks can learn such representations from large web-collected image datasets and a natural question is how these systems can be best adapted to the robotics context where little supervision is often available. In this work, we investigate different training strategies for deep architectures on a new dataset collected in a real-world robotic setting. In particular we show how deep networks can be tuned to improve invariance and discriminability properties and perform object identification tasks with minimal supervision.
+                </p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/haptic-jamali/pic.svg">
+                <pre class="bibtex">@inproceedings{pasquale2016object,
+    title={Object identification from few examples by improving the invariance of a deep convolutional neural network},
+    author={Pasquale, Giulia and Ciliberto, Carlo and Rosasco, Lorenzo and Natale, Lorenzo},
+    booktitle={Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on},
+    pages={4904--4911},
+    year={2016},
+    organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, robotics, object recognition, representation learning, deep learning</p>
+              </li>
+
+
+
+              <li>
+                <h3 class="title">  
+Object identification from few examples by improving the invariance of a deep convolutional neural network</h3> <span class="authors">Giulia Pasquale, Tanis Mar, Carlo Ciliberto, Lorenzo Rosasco,  Lorenzo Natale</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Frontiers in Robotics and AI</span>                <span class="date">2016</span>
+                <p class="abstract"> 
+                  Reliable depth perception eases and enables a large variety of attentional and interactive behaviors on humanoid robots. However, the use of depth in real-world scenarios is hindered by the difficulty of computing real-time and robust binocular disparity maps from moving stereo cameras. On the iCub humanoid robot, we recently adopted the Efficient Large-scale Stereo (ELAS) Matching algorithm (Geiger et al., 2010) for computation of the disparity map. In this technical report, we show that this algorithm allows reliable depth perception and experimental evidence that demonstrates that it can be used to solve challenging visual tasks in real-world indoor settings. As a case study, we consider the common situation where the robot is asked to focus the attention on one object close in the scene, showing how a simple but effective disparity-based segmentation solves the problem in this case. This example paves the way to a variety of other similar applications.
+                </p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/haptic-jamali/pic.svg">
+                <pre class="bibtex">@article{10.3389/frobt.2016.00035,
+    author={Pasquale, Giulia and Mar, Tanis and Ciliberto, Carlo and Rosasco, Lorenzo and Natale, Lorenzo},   
+    title={Enabling Depth-Driven Visual Attention on the iCub Humanoid Robot: Instructions for Use and New Perspectives},      
+    journal={Frontiers in Robotics and AI},      
+    volume={3},      
+    pages={35},     
+    year={2016},       
+    URL={https://www.frontiersin.org/article/10.3389/frobt.2016.00035},       
+    DOI={10.3389/frobt.2016.00035},        
+    ISSN={2296-9144},   
+}
+</pre>
+                <p class="tags"> computer vision, robotics, depth estimation</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">  
+Convex Learning of Multiple Tasks and their Structure</h3> <span class="authors">Carlo Ciliberto, Youssef Mroueh, Tomaso Poggio, Lorenzo Rosasco</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2015</span>
+                <p class="abstract"> 
+                  Reducing the amount of human supervision is a key problem in machine learning and a natural approach is that of exploiting the relations (structure) among different tasks. This is the idea at the core of multi-task learning. In this context a fundamental question is how to incorporate the tasks structure in the learning problem.We tackle this question by studying a general computational framework that allows to encode a-priori knowledge of the tasks structure in the form of a convex penalty; in this setting a variety of previously proposed methods can be recovered as special cases, including linear and non-linear approaches. Within this framework, we show that tasks and their structure can be efficiently learned considering a convex optimization problem that can be approached by means of block coordinate methods such as alternating minimization and for which we prove convergence to the global minimum.
+                </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1504.03101.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/convex-mtl/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2015convex,
+    title={Convex learning of multiple tasks and their structure},
+    author={Ciliberto, Carlo and Mroueh, Youssef and Poggio, Tomaso and Rosasco, Lorenzo},
+    booktitle={International Conference on Machine Learning},
+    pages={1548--1557},
+    year={2015}
+}
+</pre>
+                <p class="tags"> machine learning, multitask learning, convex optimization, kernels, kernel methods</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">  
+Learning Multiple Visual Tasks while Discovering their Structure</h3> <span class="authors">Carlo Ciliberto, Lorenzo Rosasco, Silvia Villa</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">CVPR</span>                <span class="date">2015</span>
+                <p class="abstract"> 
+                  Multi-task learning is a natural approach for computer vision applications that require the simultaneous solution of several distinct but related problems, e.g. object detection, classification, tracking of multiple agents, or denoising, to name a few. The key idea is that exploring task relatedness (structure) can lead to improved performances. In this paper, we propose and study a novel sparse, non-parametric approach exploiting the theory of Reproducing Kernel Hilbert Spaces for vector-valued functions. We develop a suitable regularization framework which can be formulated as a convex optimization problem, and is provably solvable using an alternating minimization approach. Empirical tests show that the proposed method compares favorably to state of the art techniques and further allows to recover interpretable structures, a problem of interest in its own right.
+                </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1504.03106.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/sparse-mtl/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2015learning,
+  title={Learning multiple visual tasks while discovering their structure},
+  author={Ciliberto, Carlo and Rosasco, Lorenzo and Villa, Silvia},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={131--139},
+  year={2015}
+}
+</pre>
+                <p class="tags"> machine learning, multitask learning, convex optimization, kernels, kernel methods, computer vision, sparsity, structure learning</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">  
+Characterizing the input-output function of the olfactory-limbic pathway in the guinea pig</h3> <span class="authors">Gian Luca Breschi, Carlo Ciliberto, Thierry Nieus, Lorenzo Rosasco, Stefano Taverna, Michela Chiappalone, Valentina Pasquale</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Computational intelligence and neuroscience</span>                <span class="date">2015</span>
+                <p class="abstract"> 
+                  Nowadays the neuroscientific community is taking more and more advantage of the continuous interaction between engineers and computational neuroscientists in order to develop neuroprostheses aimed at replacing damaged brain areas with artificial devices. To this end, a technological effort is required to develop neural network models which can be fed with the recorded electrophysiological patterns to yield the correct brain stimulation to recover the desired functions. In this paper we present a machine learning approach to derive the input-output function of the olfactory-limbic pathway in the in vitro whole brain of guinea pig, less complex and more controllable than an in vivo system. We first experimentally characterized the neuronal pathway by delivering different sets of electrical stimuli from the lateral olfactory tract (LOT) and by recording the corresponding responses in the lateral entorhinal cortex (l-ERC). As a second step, we used information theory to evaluate how much information output features carry about the input. Finally we used the acquired data to learn the LOT-l-ERC "I/O function," by means of the kernel regularized least squares method, able to predict l-ERC responses on the basis of LOT stimulation features. Our modeling approach can be further exploited for brain prostheses applications.
+                </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1504.03106.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/sparse-mtl/pic.svg">
+                <pre class="bibtex">@article{breschi2015characterizing,
+    title={Characterizing the input-output function of the olfactory-limbic pathway in the guinea pig},
+    author={Breschi, Gian Luca and Ciliberto, Carlo and Nieus, Thierry and Rosasco, Lorenzo and Taverna, Stefano and Chiappalone, Michela and Pasquale, Valentina},
+    journal={Computational intelligence and neuroscience},
+    volume={2015},
+    pages={60},
+    year={2015},
+    publisher={Hindawi Publishing Corp.}
+}
+</pre>
+                <p class="tags"> machine learning, multitask learning, convex optimization, kernels, kernel methods, computer vision, sparsity, structure learning</p>
+              </li>
+
+
+
+              <li>
+                <h3 class="title">Exploiting global force torque measurements for local compliance estimation in tactile arrays</h3> <span class="authors">Carlo Ciliberto, Luca Fiorio, Marco Maggiali, Lorenzo Natale, Lorenzo Rosasco, Giorgio Metta, Giulio Sandini, Francesco Nori</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2014</span>
+                <p class="abstract"> 
+                  In this paper we tackle the problem of estimating the local compliance of tactile arrays exploiting global measurements from a single force and torque sensor. The proposed procedure exploits a transformation matrix (describing the relative position between the local tactile elements and the global force/torque measurements) to define a linear regression problem on the unknown local stiffness. Experiments have been conducted on the foot of the iCub robot, sensorized with a single force/torque sensor and a tactile array of 250 tactile elements (taxels) on the foot sole. Results show that a simple calibration procedure can be employed to estimate the stiffness parameters of virtual springs over a tactile array and to use these model to predict normal forces exerted on the array based only on the tactile feedback. Leveraging on previous works [1] the proposed procedure does not necessarily need a-priori information on the transformation matrix of the taxels which can be directly estimated from available measurements.
+                </p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/skin-foot/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2014exploiting,
+    title={Exploiting global force torque measurements for local compliance estimation in tactile arrays},
+    author={Ciliberto, Carlo and Fiorio, Luca and Maggiali, Marco and Natale, Lorenzo and Rosasco, Lorenzo and Metta, Giorgio and Sandini, Giulio and Nori, Francesco},
+    booktitle={Intelligent Robots and Systems (IROS 2014), 2014 IEEE/RSJ International Conference on},
+    pages={3994--3999},
+    year={2014},
+    organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, robotics, artificial skin, calibration, estimation</p>
+              </li>
+
+
+
+
+
+
+              <li>
+                <h3 class="title">Ask the image: supervised pooling to preserve feature locality
+</h3> <span class="authors">Sean Ryan Fanello, Nicoletta Noceti, Carlo Ciliberto, Giorgio Metta, Francesca Odone</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">CVPR</span>                <span class="date">2014</span>
+                <p class="abstract"> 
+                  In this paper we propose a weighted supervised pooling
+method for visual recognition systems. We combine a standard
+Spatial Pyramid Representation which is commonly
+adopted to encode spatial information, with an appropriate
+Feature Space Representation favoring semantic information
+in an appropriate feature space. For the latter, we propose
+a weighted pooling strategy exploiting data supervision
+to weigh each local descriptor coherently with its likelihood
+to belong to a given object class. The two representations
+are then combined adaptively with Multiple Kernel
+Learning. Experiments on common benchmarks (Caltech256
+and PASCAL VOC-2007) show that our image representation
+improves the current visual recognition pipeline
+and it is competitive with similar state-of-art pooling methods.
+We also evaluate our method on a real Human-Robot
+Interaction setting, where the pure Spatial Pyramid Representation
+does not provide sufficient discriminative power,
+obtaining a remarkable improvement.
+                </p>
+                <a class="link-pdf" href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Fanello_Ask_the_Image_2014_CVPR_paper.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/ask-image/pic.svg">
+                <pre class="bibtex">@inproceedings{fanello2014,
+    title={Ask the image: supervised pooling to preserve feature locality},
+    author={Fanello, Sean Ryan and Noceti, Nicoletta and Ciliberto, Carlo and Metta, Giorgio and Odone, Francesca},
+    booktitle={Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on},
+    year={2014},
+    organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">On the impact of learning hierarchical representations for visual recognition in robotics</h3> <span class="authors">Carlo Ciliberto, Sean Ryan Fanello, Matteo Santoro, Lorenzo Natale, Giorgio Metta, Lorenzo Rosasco</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2013</span>
+                <p class="abstract"> 
+                  Recent developments in learning sophisticated,
+hierarchical image representations have led to remarkable
+progress in the context of visual recognition. While these
+methods are becoming standard in modern computer vision
+systems, they are rarely adopted in robotics. The question arises
+of whether solutions, which have been primarily developed
+for image retrieval, can perform well in more dynamic and
+unstructured scenarios. In this paper we tackle this question
+performing an extensive evaluation of state of the art methods
+for visual recognition on a iCub robot. We consider the problem
+of classifying 15 different objects shown by a human demonstrator
+in a challenging Human-Robot Interaction scenario. The
+classification performance of hierarchical learning approaches
+are shown to outperform benchmark solutions based on local
+descriptors and template matching. Our results show that
+hierarchical learning systems are computationally efficient and
+can be used for real-time training and recognition of objects.
+                </p>
+                <a class="link-pdf" href="https://pdfs.semanticscholar.org/4d29/bf054ee113686f1152bc6eb934f7ca6203c0.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/impact-hierarchical/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2013impact,
+  title={On the impact of learning hierarchical representations for visual recognition in robotics},
+  author={Ciliberto, Carlo and Fanello, Sean Ryan and Santoro, Matteo and Natale, Lorenzo and Metta, Giorgio and Rosasco, Lorenzo},
+  booktitle={Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+  pages={3759--3764},
+  year={2013},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition, representation learning</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Weakly supervised strategies for natural object recognition in robotics</h3> <span class="authors">Sean Ryan Fanello, Carlo Ciliberto, Lorenzo Natale, Giorgio Metta</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICRA</span>                <span class="date">2013</span>
+                <p class="abstract"> 
+                  The paper aims at building a computer vision system for automatic image labeling in robotics scenarios. We show that the weak supervision provided by a human demonstrator, through the exploitation of the independent motion, enables a realistic Human-Robot Interaction (HRI) and achieves an automatic image labeling. We start by reviewing the underlying principles of our previous method for egomotion compensation [1], then we extend our approach removing the dependency on a known kinematics in order to provide a general method for a wide range of devices. From sparse salient features we predict the egomotion of the camera through a heteroscedastic learning method. Subsequently we use an object recognition framework for testing the automatic image labeling process: we rely on the State of the Art method from Yang et al. [2], employing local features augmented through a sparse coding stage and classified with linear SVMs. The application has been implemented and validated on the iCub humanoid robot and experiments are presented to show the effectiveness of the proposed approach. The contribution of the paper is twofold: first we overcome the dependency on the kinematics in the independent motion detection method, secondly we present a practical application for automatic image labeling through a natural HRI.
+                </p>
+                <a class="link-pdf" href="">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/weak-supervision/pic.svg">
+                <pre class="bibtex">@inproceedings{fanello2013weakly,
+  title={Weakly supervised strategies for natural object recognition in robotics},
+  author={Fanello, Sean Ryan and Ciliberto, Carlo and Natale, Lorenzo and Metta, Giorgio},
+  booktitle={Robotics and Automation (ICRA), 2013 IEEE International Conference on},
+  pages={4223--4229},
+  year={2013},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition, independent motion detection</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">A heteroscedastic approach to independent motion detection for actuated visual sensors</h3> <span class="authors">Carlo Ciliberto, Sean Ryan Fanello, Lorenzo Natale, Giorgio Metta</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2012</span>
+                <p class="abstract"> 
+                  We present an original method for independent
+motion detection in dynamic scenes. The algorithm is designed
+for robotics real-time applications and it overcomes the shortcomings
+of current approaches for the egomotion estimation in
+presence of many outliers, occlusions and cluttered background.
+The method relies on a stereo system which performs the
+reprojection of a sparse set of features following the camera
+displacement. We assume that noisy prior knowledge of the
+motion is available (i.e. a robot’s kinematic model). Since this
+estimation leads to a heteroscedastic regression problem due
+to input-dependent noise, we employ a simple, but computationally
+efficient approach in order to accurately determine the
+latent egomotion subspace spanned by the Degrees of Freedom
+(DOFs) of the robot. The algorithm has been implemented
+and validated on the iCub humanoid robot. Qualitative and
+quantitative experiments are presented to show the effectiveness
+of the proposed approach. The contribution of the paper is a
+modular framework for independent motion detection naturally
+extendable to any architecture featuring a visual sensor that can
+be directly controllable.
+                </p>
+                <a class="link-pdf" href="https://www.researchgate.net/profile/Sean_Fanello/publication/256909034_A_Heteroscedastic_Approach_to_Independent_Motion_Detection_for_Actuated_Visual_Sensors/links/004635240936e85c6e000000.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/heteroscedastic/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2012heteroscedastic,
+  title={A heteroscedastic approach to independent motion detection for actuated visual sensors},
+  author={Ciliberto, Carlo and Fanello, Sean Ryan and Natale, Lorenzo and Metta, Giorgio},
+  booktitle={Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Conference on},
+  pages={3907--3913},
+  year={2012},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition, independent motion detection</p>
+              </li>
+
+
+
+
+
+
+
+              <li>
+                <h3 class="title">Online multiple instance learning applied to hand detection in a humanoid robot</h3> <span class="authors">Carlo Ciliberto, Fabrizio Smeraldi, Lorenzo Natale, Giorgio Metta</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2011</span>
+                <p class="abstract"> 
+                  Algorithms with limited supervision requirements are particularly useful for intelligent
+autonomous agents, that must be able to learn with minimal supervision and
+adapt online to a changing environment. We propose an online Multiple Instance
+Learning algorithm based on boosting and apply it to the problem of visual detection
+of the hand of a humanoid robot. Our approach solves the multiple instance
+problem at the level of the weak learners, allowing the detection of objects represented
+by more than one positive instance. Feature selection and adaptation are
+performed online as new data are fed to the algorithm. Experiments in real-world
+conditions on an iCub humanoid robot confirm that the algorithm can learn the appearance
+of the hand, reaching an accuracy comparable with off-line algorithms.
+This remains true when supervision is generated by the robot itself in a completely
+autonomous fashion. To the best of our knowledge, this is the first implementation
+of online multiple-instance learning on a robotic platform.
+                </p>
+                <a class="link-pdf" href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/5004/EECSRR-10-03.pdf?sequence=1">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/mil/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2011online,
+  title={Online multiple instance learning applied to hand detection in a humanoid robot},
+  author={Ciliberto, Carlo and Smeraldi, Fabrizio and Natale, Lorenzo and Metta, Giorgio},
+  booktitle={Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ International Conference on},
+  pages={1526--1532},
+  year={2011},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition, independent motion detection</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">Reexamining lucas-kanade method for real-time independent motion detection: Application to the icub humanoid robot</h3> <span class="authors">Carlo Ciliberto, Ugo Pattacini, Lorenzo Natale, Francesco Nori, Giorgio Metta</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IROS</span>                <span class="date">2011</span>
+                <p class="abstract"> 
+                  Visual motion is a simple yet powerful cue widely
+used by biological systems to improve their perception and
+adaptation to the environment. Examples of tasks that greatly
+benefit from the ability to detect movement are object segmentation,
+3D scene reconstruction and control of attention. In
+computer vision several algorithms for computing visual motion
+and optic flow exists. However their application in robotics is
+not straightforward as in these platforms visual motion is often
+dominated by (self) motion produced by the movement of the
+robot (egomotion) making it difficult to disambiguate between
+motion induced by the scene dynamics or by the own actions
+of the robot. Independent motion detection is an active field in
+computer vision and robotics, however approaches in this area
+typically require that some models of both the environment and
+the robot visual system are available and are hardly suitable
+for real-time control. In this paper we describe the motionCUT,
+a derivation of the Lucas-Kanade optical flow algorithm that
+allows detecting moving objects, irrespectively of the egomotion
+produced by the robot. Our method is purely visual and does
+not require information other than the images coming from
+the cameras. As such it can be easily adapted to any robotic
+platform. The system was tested on a stereo tracking task on
+the iCub humanoid robot, demonstrating that the algorithm
+performs well and can easily execute in real-time.
+                </p>
+                <a class="link-pdf" href="https://pdfs.semanticscholar.org/34f7/cd8c3dc87dd2f09203f77d4625affe4b199a.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="papers/imd-lucas-kanade/pic.svg">
+                <pre class="bibtex">@inproceedings{ciliberto2011reexamining,
+  title={Reexamining lucas-kanade method for real-time independent motion detection: Application to the icub humanoid robot},
+  author={Ciliberto, Carlo and Pattacini, Ugo and Natale, Lorenzo and Nori, Francesco and Metta, Giorgio},
+  booktitle={Intelligent Robots and Systems (IROS), 2011 IEEE/RSJ International Conference on},
+  pages={4154--4160},
+  year={2011},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> machine learning, computer vision, object recognition, independent motion detection</p>
+              </li>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="s_footer4" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center align-self-center">
+          <p class="mb-5">
+            <br><strong>c.ciliberto@ucl.ac.uk</strong>
+            <br>&nbsp;
+            <br>66-72 Gower St, Bloomsbury,
+            <br>London WC1E 6EA,&nbsp;
+            <br>United Kingdom
+          </p>
+        </div>
+        <div class="col-md-6 p-0">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5362.55272333985!2d-0.1351413305520994!3d51.52190983479626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e5bde62a1%3A0x930be941b9a45d19!2s66+Gower+St%2C+Bloomsbury%2C+London!5e0!3m2!1sen!2suk!4v1521043006638" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=2+rue+Simone+Iff%2C+Paris+55012%2C+France&amp;center=2+rue+Simone+Iff%2C+Paris+55012%2C+France&amp;zoom=13&amp;size=640x300&amp;sensor=false&amp;scale=2">  -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>`
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!--   <!---script src="http://listjs.com/assets/javascripts/list.min.js"></script---> -->
+  <script src="list.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#list-source-container').hide();
+    });
+    
+    var vlnSource =  [
+      'title', 'authors', 'venue', 'date', 'abstract', 'bibtex', 'tags',
+      { name: 'addmsg', attr: 'addmsg' },
+      { name: 'type', attr: 'type' },
+      { name: 'relevance', attr: 'relevance' },
+      { name: 'link-pdf', attr: 'href' },
+      { name: 'link-code', attr: 'href' },
+      { name: 'link-slides', attr: 'href' },
+      { name: 'link-video', attr: 'href' },
+      { name: 'picture', attr: 'src' }
+    ];
+    
+    var vlnPub =  [
+      'title', 'authors', 'venue', 'date', 'abstract', 'bibtex', 'tags', 'addmsg',
+      { name: 'type', attr: 'type' },
+      { name: 'relevance', attr: 'relevance' },
+      { name: 'link-pdf', attr: 'href' },
+      { name: 'link-code', attr: 'href' },
+      { name: 'link-slides', attr: 'href' },
+      { name: 'link-video', attr: 'href' },
+      { name: 'picture', attr: 'src' }
+    ];
+    $('.addInfo').hide();
+    pubList = new List('pub-list-container', {item: 'template-pub', valueNames: vlnPub}, (new List('list-source-container', {valueNames: vlnSource})).toJSON());
+    $('.checkempty:empty').hide();
+    $('a.checkempty[href=null]').hide()
+    $('#template-pub').hide();
+    $('#pub-list-container').show();
+  </script>
+</body>
+
+</html>
