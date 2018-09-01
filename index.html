@@ -12,11 +12,12 @@
     gtag('config', 'UA-119544230-1');
   </script>
 
-  <meta name="description" content="Researcher at University College London (UCL) in machine learning, structured prediction and multitask learning, with experience in computer vision and robotics. He was Postdoc at the Poggio lab at the Massachusetts Institute of Technology (MIT) and did his PhD at the Istituto Italiano di Tecnologia (IIT).">
+  <meta name="description" content="Lecturer at Imperial College London, Honorary Lecturer at University College London (UCL) in machine learning, structured prediction and multitask learning, with experience in computer vision and robotics. He was Postdoc at the Poggio lab at the Massachusetts Institute of Technology (MIT) and did his PhD at the Istituto Italiano di Tecnologia (IIT).">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="prova1.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -63,8 +64,8 @@
       <div class="row">
         <div class="text-md-left text-center align-self-center my-2 col-md-7">
           <h1 class="display-3 text-right">Carlo Ciliberto</h1>
-          <p class="lead text-right"> Machine Learning Researcher&nbsp;
-            <br> University College London &nbsp;</p>
+          <p class="lead text-right"> Lecturer in Machine Learning&nbsp;
+            <br> Imperial College, London &nbsp;</p>
         </div>
         <div class="col-md-1">
         </div>
@@ -81,10 +82,11 @@
             <div class="btn-light alert py-2 my-2 border border-secondary" onclick="$(this).next().toggle()">
               <p class="lead py-0 my-0"> <span class="alert alert-success p-1 text-success lead" type="tipo" style="font-size:smaller"> <span class="venue" style="font-weight: bolder;">NIPS</span> <span class="date">2017</span></span> <span class="title" style="display:inline-block">Prova</span>
                 <br> <span class="authors" style="font-size:smaller; font-style:italic; font-weight: bolder;">Autori</span>
-                <a class="checkempty link-pdf px-2" href="" style="display:inline; float:right"><i class="fa fa-file-pdf-o"></i></a>
-                <a class="link-code checkempty px-2" style="display:inline; float:right" href=""><i class="fa fa-code"></i></a>
+                <a class="checkempty link-pdf px-2" href="" style="display:inline; float:right"><i class="far fa-file-pdf"></i></a>
+                <a class="link-code checkempty px-2" style="display:inline; float:right" href=""><i class="fas fa-code"></i></a>
                 <a class="link-video checkempty px-2" href="" style="display:inline; float:right"><i class="fa fa-film"></i></a>
-                <a class="link-slides checkempty px-2" href="" style="display:inline; float:right;">slides</a>
+                <!-- <i class="far fa-images"> -->
+                <a class="link-slides checkempty px-2" href="" style="display:inline; float:right;">slides</i></a>
               </p>
             </div>
             <div class="addInfo alert border border-secondary">
@@ -102,6 +104,27 @@
           </div>
           <div id="list-source-container">
             <ul class="list">
+
+              <li>
+                <h3 class="title">Incremental Learning-to-Learn with Statistical Guarantees</h3> <span class="authors">Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="2">UAI</span>                <span class="date">2018</span>
+                <p class="abstract"> In learning-to-learn the goal is to infer a learning algorithm that works well on a class of tasks sampled from an unknown meta distribution. In contrast to previous work on batch learning-to-learn, we consider a scenario where tasks are presented sequentially and the algorithm needs to adapt incrementally to improve its performance on future tasks. Key to this setting is for the algorithm to rapidly incorporate new observations into the model as they arrive, without keeping them in memory. We focus on the case where the underlying algorithm is ridge regression parameterized by a positive semidefinite matrix. We propose to learn this matrix by applying a stochastic strategy to minimize the empirical error incurred by ridge regression on future tasks sampled from the meta distribution. We study the statistical properties of the proposed algorithm and prove non-asymptotic bounds on its excess transfer risk, that is, the generalization performance on new tasks from the same meta distribution. We compare our online learning-to-learn approach with a state of the art batch method, both theoretically and empirically. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1803.08089.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" src="">
+                <pre class="bibtex">@article{denevi2018incremental,
+  title={Incremental Learning-to-Learn with Statistical Guarantees},
+  author={Denevi, Giulia and Ciliberto, Carlo and Stamos, Dimitris and Pontil, Massimiliano},
+  journal={Uncertainty in Artificial Intelligence (UAI)},
+  year={2018}
+}
+
+                </pre>
+                <p class="tags">machine learning, Incremental learning, learning to learn, online learning, transfer learning, multitask learning</p>
+              </li>
+
+
 
 
               <li>
@@ -147,7 +170,7 @@
                 <pre class="bibtex">@article{ciliberto2017consistent,
     title={Consistent Multitask Learning with Nonlinear Output Relations},
     author={Ciliberto, Carlo and Rudi, Alessandro and Rosasco, Lorenzo and Pontil, Massimiliano},
-    journal={arXiv preprint arXiv:1705.08118},
+    journal={Advances in Neural Information Processing Systems},
     year={2017}
 }
                 </pre>
@@ -213,7 +236,7 @@ We evaluate our algorithm on both a machine learning benchmark dataset and two c
                 <a class="link-code" href="">code</a>
                 <a class="link-slides" href="">slides</a>
                 <a class="link-video" href="">video</a>
-                <img class="picture" src="papers/incremental-learning/pic.svg">
+                <img class="picture" src="papers/incremental-learning17/incremental-learning.png">
                 <pre class="bibtex">@inproceedings{camoriano2017incremental,
   title={Incremental robot learning of new objects with fixed update time},
   author={Camoriano, Raffaello and Pasquale, Giulia and Ciliberto, Carlo and Natale, Lorenzo and Rosasco, Lorenzo and Metta, Giorgio},
@@ -747,23 +770,22 @@ performs well and can easily execute in real-time.
   <div id="contacts" class="py-5 bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-center align-self-center">
+        <div class="col-md-5 text-center align-self-center">
           <p class="mb-5">
 
             <!-- Linkedin Badge -->
             <div class="LI-profile-badge" style="display:none" data-version="v1" data-size="medium" data-locale="it_IT" data-type="horizontal" data-theme="light" data-vanity="cciliber"><a class="LI-simple-link" href='https://it.linkedin.com/in/cciliber?trk=profile-badge'>Carlo Ciliberto</a></div>
 
             <br><strong>Carlo Ciliberto</strong>
-            <br><strong>c.ciliberto@ucl.ac.uk</strong>
+            <br><strong>c.ciliberto@imperial.ac.uk</strong>
             <br>&nbsp;
-            <br>66-72 Gower St, Bloomsbury,
-            <br>London WC1E 6EA,&nbsp;
+            <br>Imperial College London,
+            <br>Exhibition Road, London, SW7 2BT, UK
             <br>United Kingdom
           </p>
         </div>
-        <div class="col-md-6 p-0">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5362.55272333985!2d-0.1351413305520994!3d51.52190983479626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e5bde62a1%3A0x930be941b9a45d19!2s66+Gower+St%2C+Bloomsbury%2C+London!5e0!3m2!1sen!2suk!4v1521043006638" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <!-- <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=2+rue+Simone+Iff%2C+Paris+55012%2C+France&amp;center=2+rue+Simone+Iff%2C+Paris+55012%2C+France&amp;zoom=13&amp;size=640x300&amp;sensor=false&amp;scale=2">  -->
+        <div class="col-md-5 p-0">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9934.988065664777!2d-0.1804797!3d51.4995098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876055caa7cb987%3A0x66f9f2d9fa2588a5!2sDepartment+of+Electrical+%26+Electronic+Engineering!5e0!3m2!1sen!2suk!4v1535799081631" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
       </div>
