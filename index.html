@@ -65,7 +65,7 @@
         <div class="text-md-left text-center align-self-center my-2 col-md-7">
           <h1 class="display-3 text-right">Carlo Ciliberto</h1>
           <p class="lead text-right"> Lecturer in Machine Learning&nbsp;
-            <br> Imperial College, London &nbsp;</p>
+            <br> Imperial College London &nbsp;</p>
         </div>
         <div class="col-md-1">
         </div>
@@ -105,6 +105,46 @@
           <div id="list-source-container">
             <ul class="list">
 
+
+              <li>
+                <h3 class="title">Differential Properties of Sinkhorn Approximation for Learning with Wasserstein Distance</h3> <span class="authors">Giulia Luise, Alessandro Rudi, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NIPS</span>                <span class="date">2018</span>
+                <p class="abstract"> Applications of optimal transport have recently gained remarkable attention thanks to the computational advantages of entropic regularization. However, in most situations the Sinkhorn approximation of the Wasserstein distance is replaced by a regularized version that is less accurate but easy to differentiate. In this work we characterize the differential properties of the original Sinkhorn distance, proving that it enjoys the same smoothness as its regularized version and we explicitly provide an efficient algorithm to compute its gradient. We show that this result benefits both theory and applications: on one hand, high order smoothness confers statistical guarantees to learning with Wasserstein approximations. On the other hand, the gradient formula allows us to efficiently solve learning and optimization problems in practice. Promising preliminary experiments complement our analysis. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1805.11897.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/differential-sinkhorn-wasserstein-learning18/differential-sinkhorn-wasserstein-learning.png">
+                <pre class="bibtex">@inproceedings{luise2018differential,
+  title={Differential Properties of Sinkhorn Approximation for Learning with Wasserstein Distance},
+  author={Luise, Giulia and Rudi, Alessandro and Pontil, Massimiliano and Ciliberto, Carlo},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2018}
+}
+</pre>
+                <p class="tags"> Machine Learning, Wasserstein, Optimal Transport, Sinkhorn, Structured Prediction</p>
+              </li>
+
+
+              <li>
+                <h3 class="title">Manifold Structured Prediction</h3> <span class="authors">Alessandro Rudi*, Carlo Ciliberto*, Gian Maria Marconi, Lorenzo Rosasco, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="2">NIPS</span>                <span class="date">2018</span>
+                <p class="abstract"> Structured prediction provides a general framework to deal with supervised problems where the outputs have semantically rich structure. While classical approaches consider finite, albeit potentially huge, output spaces, in this paper we discuss how structured prediction can be extended to a continuous scenario. Specifically, we study a structured prediction approach to manifold valued regression. We characterize a class of problems for which the considered approach is statistically consistent and study how geometric optimization can be used to compute the corresponding estimator. Promising experimental results on both simulated and real data complete our study.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1806.09908.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="Manifold Structured Prediction. First work investigating how to impose nonlinear relations and constraints among multiple tasks" src="papers/manifold-structured-prediction18/manifold-structured-prediction.png">
+                <pre class="bibtex">@article{ciliberto2018manifold,
+    title={Manifold Structured Prediction},
+    author={Rudi, Alessandro and Ciliberto, Carlo and Gian Maria Marconi and Rosasco, Lorenzo},
+    journal={Advances in Neural Information Processing Systems},
+    year={2018}
+}
+                </pre>
+                <p class="tags">structured-prediction manifold manifold-regression kernel-methods </p>
+              </li>
+
+
+
               <li>
                 <h3 class="title">Incremental Learning-to-Learn with Statistical Guarantees</h3> <span class="authors">Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="2">UAI</span>                <span class="date">2018</span>
                 <p class="abstract"> In learning-to-learn the goal is to infer a learning algorithm that works well on a class of tasks sampled from an unknown meta distribution. In contrast to previous work on batch learning-to-learn, we consider a scenario where tasks are presented sequentially and the algorithm needs to adapt incrementally to improve its performance on future tasks. Key to this setting is for the algorithm to rapidly incorporate new observations into the model as they arrive, without keeping them in memory. We focus on the case where the underlying algorithm is ridge regression parameterized by a positive semidefinite matrix. We propose to learn this matrix by applying a stochastic strategy to minimize the empirical error incurred by ridge regression on future tasks sampled from the meta distribution. We study the statistical properties of the proposed algorithm and prove non-asymptotic bounds on its excess transfer risk, that is, the generalization performance on new tasks from the same meta distribution. We compare our online learning-to-learn approach with a state of the art batch method, both theoretically and empirically. </p>
@@ -112,7 +152,7 @@
                 <a class="link-code" href="">code</a>
                 <a class="link-slides" href="">slides</a>
                 <a class="link-video" href="">video</a>
-                <img class="picture" src="">
+                <img class="picture" src="papers/incremental-learning-to-learn-statistical-guarantees18/incremental-learning-to-learn-statistical-guarantees.png">
                 <pre class="bibtex">@article{denevi2018incremental,
   title={Incremental Learning-to-Learn with Statistical Guarantees},
   author={Denevi, Giulia and Ciliberto, Carlo and Stamos, Dimitris and Pontil, Massimiliano},
