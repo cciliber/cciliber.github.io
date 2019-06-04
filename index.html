@@ -106,6 +106,73 @@
             <ul class="list">
 
 
+
+
+              <li>
+                <h3 class="title">Leveraging Low-Rank Relations Between Surrogate Tasks in Structured Prediction</h3> <span class="authors">Giulia Luise, Dimitris Stamos, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2019</span>
+                <p class="abstract"> We study the interplay between surrogate methods for structured prediction and techniques from multitask learning designed to leverage relationships between surrogate outputs. We propose an efficient algorithm based on trace norm regularization which, differently from previous methods, does not require explicit knowledge of the coding/decoding functions of the surrogate framework. As a result, our algorithm can be applied to the broad class of problems in which the surrogate space is large or even infinite dimensional. We study excess risk bounds for trace norm regularized structured prediction, implying the consistency and learning rates for our estimator. We also identify relevant regimes in which our approach can enjoy better generalization performance than previous methods. Numerical experiments on ranking problems indicate that enforcing low-rank relations among surrogate outputs may indeed provide a significant advantage in practice. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1903.00667.pdf">pdf</a>
+                <a class="link-code" href="https://github.com/dstamos/LR-SELF">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{luise2019leveraging,
+  title={Learning-to-Learn Stochastic Gradient Descent with Biased Regularization},
+  author={Luise, Giulia and Stamos, Dimitris and Pontil, Massimiliano and Ciliberto, Carlo},
+  booktitle={International Conference on Machine Learning},
+  year={2019}
+}
+</pre>
+                <p class="tags"> Machine Learning, Learning-to-Learn, Metalearning, Hyperparameter optimization</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Learning-to-Learn Stochastic Gradient Descent with Biased Regularization</h3> <span class="authors">Giulia Denevi, Carlo Ciliberto, Riccardo Grazzi, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2019</span>
+                <p class="abstract"> We study the problem of learning-to-learn: inferring a learning algorithm that works well on tasks sampled from an unknown distribution. As class of algorithms we consider Stochastic Gradient Descent on the true risk regularized by the square euclidean distance to a bias vector. We present an average excess risk bound for such a learning algorithm. This result quantifies the potential benefit of using a bias vector with respect to the unbiased case. We then address the problem of estimating the bias from a sequence of tasks. We propose a meta-algorithm which incrementally updates the bias, as new tasks are observed. The low space and time complexity of this approach makes it appealing in practice. We provide guarantees on the learning ability of the meta-algorithm. A key feature of our results is that, when the number of tasks grows and their variance is relatively small, our learning-to-learn approach has a significant advantage over learning each task in isolation by Stochastic Gradient Descent without a bias term. We report on numerical experiments which demonstrate the effectiveness of our approach. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1903.10399.pdf">pdf</a>
+                <a class="link-code" href="https://github.com/prolearner/onlineLTL">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{denevi2019learning,
+  title={Learning-to-Learn Stochastic Gradient Descent with Biased Regularization},
+  author={Denevi, Giulia and Ciliberto, Carlo and Grazzi, Riccardo and Pontil, Massimiliano},
+  booktitle={International Conference on Machine Learning},
+  year={2019}
+}
+</pre>
+                <p class="tags"> Machine Learning, Learning-to-Learn, Metalearning, Hyperparameter optimization</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation</h3> <span class="authors">Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, Yiannis Demiris</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2019</span>
+                <p class="abstract"> We consider the problem of imitation learning from a finite set of expert trajectories, without access to reinforcement signals. The classical approach of extracting the expert's reward function via inverse reinforcement learning, followed by reinforcement learning is indirect and may be computationally expensive. Recent generative adversarial methods based on matching the policy distribution between the expert and the agent could be unstable during training. We propose a new framework for imitation learning by estimating the support of the expert policy to compute a fixed reward function, which allows us to re-frame imitation learning within the standard reinforcement learning setting. We demonstrate the efficacy of our reward function on both discrete and continuous domains, achieving comparable or better performance than the state of the art under different reinforcement learning algorithms. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1905.06750.pdf">pdf</a>
+                <a class="link-code" href="https://github.com/RuohanW/red">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{wang2019random,
+  title={Random Expert Distillation: Imitation Learning via Expert Policy
+Support Estimation},
+  author={Wang, Ruohan and Ciliberto, Carlo and Amadori, Pierluigi and Demiris, Yiannis},
+  booktitle={International Conference on Machine Learning},
+  year={2019}
+}
+</pre>
+                <p class="tags"> Machine Learning, Reinforcement Learning, Imitation Learning, Support Estimation, MUJOCO</p>
+              </li>
+
+
+
+
               <li>
                 <h3 class="title">Differential Properties of Sinkhorn Approximation for Learning with Wasserstein Distance</h3> <span class="authors">Giulia Luise, Alessandro Rudi, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NIPS</span>                <span class="date">2018</span>
                 <p class="abstract"> Applications of optimal transport have recently gained remarkable attention thanks to the computational advantages of entropic regularization. However, in most situations the Sinkhorn approximation of the Wasserstein distance is replaced by a regularized version that is less accurate but easy to differentiate. In this work we characterize the differential properties of the original Sinkhorn distance, proving that it enjoys the same smoothness as its regularized version and we explicitly provide an efficient algorithm to compute its gradient. We show that this result benefits both theory and applications: on one hand, high order smoothness confers statistical guarantees to learning with Wasserstein approximations. On the other hand, the gradient formula allows us to efficiently solve learning and optimization problems in practice. Promising preliminary experiments complement our analysis. </p>
@@ -126,7 +193,7 @@
 
 
               <li>
-                <h3 class="title">Manifold Structured Prediction</h3> <span class="authors">Alessandro Rudi*, Carlo Ciliberto*, Gian Maria Marconi, Lorenzo Rosasco, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="2">NIPS</span>                <span class="date">2018</span>
+                <h3 class="title">Manifold Structured Prediction</h3> <span class="authors">Alessandro Rudi*, Carlo Ciliberto*, Gian Maria Marconi, Lorenzo Rosasco</span> <span class="venue type relevance addmsg" type="conference" relevance="2">NIPS</span>                <span class="date">2018</span>
                 <p class="abstract"> Structured prediction provides a general framework to deal with supervised problems where the outputs have semantically rich structure. While classical approaches consider finite, albeit potentially huge, output spaces, in this paper we discuss how structured prediction can be extended to a continuous scenario. Specifically, we study a structured prediction approach to manifold valued regression. We characterize a class of problems for which the considered approach is statistically consistent and study how geometric optimization can be used to compute the corresponding estimator. Promising experimental results on both simulated and real data complete our study.</p>
                 <a class="link-pdf" href="https://arxiv.org/pdf/1806.09908.pdf">pdf</a>
                 <a class="link-code" href="">code</a>
