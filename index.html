@@ -107,6 +107,106 @@
 
 
 
+              <li>
+                <h3 class="title">Hyperbolic Manifold Regression</h3> <span class="authors">Gian Maria Marconi, Lorenzo Rosasco, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">AISTATS</span>                <span class="date">2020</span>
+                <p class="abstract"> Geometric representation learning has recently shown great promise in several machine learning settings, ranging from relational learning to language processing and generative models. In this work, we consider the problem of performing manifold-valued regression onto an hyperbolic space as an intermediate component for a number of relevant machine learning applications. In particular, by formulating the problem of predicting nodes of a tree as a manifold regression task in the hyperbolic space, we propose a novel perspective on two challenging tasks: 1) hierarchical classification via label embeddings and 2) taxonomy extension of hyperbolic representations. To address the regression problem we consider previous methods as well as proposing two novel approaches that are computationally more advantageous: a parametric deep learning model that is informed by the geodesics of the target space and a non-parametric kernel-method for which we also prove excess risk bounds. Our experiments show that the strategy of leveraging the hyperbolic geometry is promising. In particular, in the taxonomy expansion setting, we find that the hyperbolic-based estimators significantly outperform methods performing regression in the ambient Euclidean space. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2005.13885.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/hyperbolic-manifold-regression/hyperbolic-manifold-regression.png">
+                <pre class="bibtex">@article{marconi2020hyperbolic,
+  title={Hyperbolic Manifold Regression},
+  author={Marconi, Gian Maria and Rosasco, Lorenzo and Ciliberto, Carlo},
+  journal={Artificial Intelligence and Statistics (AISTATS) 2020},
+  year={2020}
+}
+</pre>
+                <p class="tags"> Machine Learning, Structured Prediction, Hyperbolic Embeddings, Kernel Methods</p>
+              </li>
+
+
+              <li>
+                <h3 class="title">A General Framework for Consistent Structured Prediction with Implicit Loss Embeddings</h3> <span class="authors">Carlo Ciliberto, Lorenzo Rosasco, Alessandro Rudi</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">JMLR</span>                <span class="date">2020</span>
+                <p class="abstract"> We propose and analyze a novel theoretical and algorithmic framework for structured prediction. While so far the term has referred to discrete output spaces, here we consider more general settings, such as manifolds or spaces of probability measures. We define structured prediction as a problem where the output space lacks a vectorial structure. We identify and study a large class of loss functions that implicitly defines a suitable geometry on the problem. The latter is the key to develop an algorithmic framework amenable to a sharp statistical analysis and yielding efficient computations. When dealing with output spaces with infinite cardinality, a suitable implicit formulation of the estimator is shown to be crucial. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2002.05424.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{ciliberto2020general,
+  title={A General Framework for Consistent Structured Prediction with Implicit Loss Embeddings},
+  author={Ciliberto, Carlo and Rosasco, Lorenzo and Rudi, Alessandro},
+  journal={Journal of Machine Learning Research (JMLR)},
+  year={2020}
+}
+</pre>
+                <p class="tags"> Machine Learning, Structured Prediction, Statistical Learning Theory</p>
+              </li>
+
+
+              <li>
+                <h3 class="title">Sinkhorn Barycenters with Free Support via Frank-Wolfe Algorithm</h3> <span class="authors">Giulia Luise, Saverio Salzo, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2019</span>
+                <p class="abstract"> We present a novel algorithm to estimate the barycenter of arbitrary probability distributions with respect to the Sinkhorn divergence. Based on a Frank-Wolfe optimization strategy, our approach proceeds by populating the support of the barycenter incrementally, without requiring any pre-allocation. We consider discrete as well as continuous distributions, proving convergence rates of the proposed algorithm in both settings. Key elements of our analysis are a new result showing that the Sinkhorn divergence on compact domains has Lipschitz continuous gradient with respect to the Total Variation and a characterization of the sample complexity of Sinkhorn potentials. Experiments validate the effectiveness of our method in practice. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1905.13194.pdf">pdf</a>
+                <a class="link-code" href="https://github.com/GiulsLu/Sinkhorn-Barycenters">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/sinkhorn-barycenters-frank-wolfe/sinkhorn-barycenters-frank-wolfe.png">
+                <pre class="bibtex">@inproceedings{luise2019sinkhorn,
+  title={Sinkhorn Barycenters with Free Support via Frank-Wolfe Algorithm},
+  author={Luise, Giulia and Salzo, Saverio and Pontil, Massimiliano and Ciliberto, Carlo},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={9318--9329},
+  year={2019}
+}
+</pre>
+                <p class="tags"> Machine Learning, Optimal Transport, Frank-Wolfe, Barycenters, Sinkhorn</p>
+              </li>
+
+              <li>
+                <h3 class="title">Localized Structured Prediction</h3> <span class="authors">Carlo Ciliberto, Francis Bach, Alessandro Rudi</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2019</span>
+                <p class="abstract"> Key to structured prediction is exploiting the problem structure to simplify the learning process. A major challenge arises when data exhibit a local structure (e.g., are made by "parts") that can be leveraged to better approximate the relation between (parts of) the input and (parts of) the output. Recent literature on signal processing, and in particular computer vision, has shown that capturing these aspects is indeed essential to achieve state-of-the-art performance. While such algorithms are typically derived on a case-by-case basis, in this work we propose the first theoretical framework to deal with part-based data from a general perspective. We derive a novel approach to deal with these problems and study its generalization properties within the setting of statistical learning theory. Our analysis is novel in that it explicitly quantifies the benefits of leveraging the part-based structure of the problem with respect to the learning rates of the proposed estimator. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/1806.02402.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/localized-structured-prediction/localized-structured-prediction.png">
+                <pre class="bibtex">@inproceedings{ciliberto2019localized,
+  title={Localized structured prediction},
+  author={Ciliberto, Carlo and Bach, Francis and Rudi, Alessandro},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={7299--7309},
+  year={2019}
+}
+</pre>
+                <p class="tags"> Machine Learning, Structured Prediction, Statistical Learning Theory</p>
+              </li>
+
+
+              <li>
+                <h3 class="title">Online-Within-Online Meta-Learning</h3> <span class="authors">Giulia Denevi, Dimitris Stamos, Carlo Ciliberto, Massimiliano Pontil</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span> <span class="date">2019</span>
+                <p class="abstract"> We study the problem of learning a series of tasks in a fully online Meta-Learning setting. The goal is to exploit similarities among the tasks to incrementally adapt an inner online algorithm in order to incur a low averaged cumulative error over the tasks. We focus on a family of inner algorithms based on a parametrized variant of online Mirror Descent. The inner algorithm is incrementally adapted by an online Mirror Descent meta-algorithm using the corresponding within-task minimum regularized empirical risk as the meta-loss. In order to keep the process fully online, we approximate the meta-subgradients by the online inner algorithm. An upper bound on the approximation error allows us to derive a cumulative error bound for the proposed method. Our analysis can also be converted to the statistical setting by online-to-batch arguments. We instantiate two examples of the framework in which the meta-parameter is either a common bias vector or feature map. Finally, preliminary numerical experiments confirm our theoretical findings. </p>
+                <a class="link-pdf" href="https://papers.nips.cc/paper/9468-online-within-online-meta-learning.pdf">pdf</a>
+                <a class="link-code" href="https://github.com/dstamos/LR-SELF">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@incollection{denevi2019online,
+title = {Online-Within-Online Meta-Learning},
+author = {Denevi, Giulia and Stamos, Dimitris and Ciliberto, Carlo and Pontil, Massimiliano},
+booktitle = {Advances in Neural Information Processing Systems 32},
+pages = {13110--13120},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9468-online-within-online-meta-learning.pdf}
+}
+</pre>
+                <p class="tags"> Machine Learning, Learning-to-Learn, Metalearning, Hyperparameter optimization</p>
+              </li>
+
+
+
 
               <li>
                 <h3 class="title">Leveraging Low-Rank Relations Between Surrogate Tasks in Structured Prediction</h3> <span class="authors">Giulia Luise, Dimitris Stamos, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2019</span>
@@ -117,7 +217,7 @@
                 <a class="link-video" href="">video</a>
                 <img class="picture" alt="" src="">
                 <pre class="bibtex">@inproceedings{luise2019leveraging,
-  title={Learning-to-Learn Stochastic Gradient Descent with Biased Regularization},
+  title={Leveraging low-rank relations between surrogate tasks in structured prediction},
   author={Luise, Giulia and Stamos, Dimitris and Pontil, Massimiliano and Ciliberto, Carlo},
   booktitle={International Conference on Machine Learning},
   year={2019}
