@@ -107,6 +107,55 @@
 
 
 
+
+
+
+              <li>
+                <h3 class="title">Structured Prediction for Conditional Meta-Learning</h3> <span class="authors">Ruohan Wang, Yiannis Demiris, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2020</span>
+                <p class="abstract"> The goal of optimization-based meta-learning is to find a single initialization shared across a distribution of tasks to speed up the process of learning new tasks. Conditional meta-learning seeks task-specific initialization to better capture complex task distributions and improve performance. However, many existing conditional methods are difficult to generalize and lack theoretical guarantees. In this work, we propose a new perspective on conditional meta-learning via structured prediction. We derive task-adaptive structured meta-learning (TASML), a principled framework that yields task-specific objective functions by weighing meta-training data on target tasks. Our non-parametric approach is model-agnostic and can be combined with existing meta-learning methods to achieve conditioning. Empirically, we show that TASML improves the performance of existing meta-learning models, and outperforms the state-of-the-art on benchmark datasets. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2002.08799.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/structured-prediction-for-conditional-meta-learning/motivation-alg.png">
+                <pre class="bibtex">@article{wang2020structured,
+  title={Structured Prediction for Conditional Meta-learning},
+  author={Wang, Ruohan and Demiris, Yiannis and Ciliberto, Carlo},
+  journal={Neural Information Processing Systems (NeurIPS) 2020},
+  year={2020}
+}
+</pre>
+                <p class="tags"> Machine Learning, Structured Prediction, Meta-Learning, Kernel Methods, Learning-to-learn, Lifelong learning</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">The Advantage of Conditional Meta-Learning for
+Biased Regularization and Fine-Tuning</h3> <span class="authors">Giulia Denevi, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2020</span>
+                <p class="abstract"> Biased regularization and fine-tuning are two recent meta-learning approaches. They have been shown to be effective to tackle distributions of tasks, in which the tasks’ target vectors are all close to a common meta-parameter vector. However, these methods may perform poorly on heterogeneous environments of tasks, where the complexity of the tasks’ distribution cannot be captured by a single meta-parameter vector. We address this limitation by conditional meta-learning, inferring a conditioning function mapping task’s side information into a meta-parameter vector that is appropriate for that task at hand. We characterize properties of the environment under which the conditional approach brings a substantial advantage over standard meta-learning and we highlight examples of environments, such as those with multiple clusters, satisfying these properties. We then propose a convex meta-algorithm providing a comparable advantage also in practice. Numerical experiments confirm our theoretical findings. </p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2008.10857.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{denevi2020advantage,
+  title={The Advantage of Conditional Meta-Learning for
+Biased Regularization and Fine-Tuning},
+  author={Denevi, Giulia and Pontil, Massimiliano and Ciliberto, Carlo},
+  journal={Neural Information Processing Systems (NeurIPS) 2020},
+  year={2020}
+}
+</pre>
+                <p class="tags"> Machine Learning, Online Learning, Meta-learning</p>
+              </li>
+
+
+
+
+
+
               <li>
                 <h3 class="title">Hyperbolic Manifold Regression</h3> <span class="authors">Gian Maria Marconi, Lorenzo Rosasco, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">AISTATS</span>                <span class="date">2020</span>
                 <p class="abstract"> Geometric representation learning has recently shown great promise in several machine learning settings, ranging from relational learning to language processing and generative models. In this work, we consider the problem of performing manifold-valued regression onto an hyperbolic space as an intermediate component for a number of relevant machine learning applications. In particular, by formulating the problem of predicting nodes of a tree as a manifold regression task in the hyperbolic space, we propose a novel perspective on two challenging tasks: 1) hierarchical classification via label embeddings and 2) taxonomy extension of hyperbolic representations. To address the regression problem we consider previous methods as well as proposing two novel approaches that are computationally more advantageous: a parametric deep learning model that is informed by the geodesics of the target space and a non-parametric kernel-method for which we also prove excess risk bounds. Our experiments show that the strategy of leveraging the hyperbolic geometry is promising. In particular, in the taxonomy expansion setting, we find that the hyperbolic-based estimators significantly outperform methods performing regression in the ambient Euclidean space. </p>
