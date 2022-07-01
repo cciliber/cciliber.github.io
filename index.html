@@ -109,6 +109,219 @@
 
 
 
+              <li>
+                <h3 class="title">Distribution Regression with Sliced Wasserstein Kernels</h3> <span class="authors">Dimitri Meunier, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2022</span>
+                <p class="abstract">The problem of learning functions over spaces of probabilities - or distribution regression - is gaining significant interest in the machine learning community. A key challenge behind this problem is to identify a suitable representation capturing all relevant properties of the underlying functional mapping. A principled approach to distribution regression is provided by kernel mean embeddings, which lifts kernel-induced similarity on the input domain at the probability level. This strategy effectively tackles the two-stage sampling nature of the problem, enabling one to derive estimators with strong statistical guarantees, such as universal consistency and excess risk bounds. However, kernel mean embeddings implicitly hinge on the maximum mean discrepancy (MMD), a metric on probabilities, which may fail to capture key geometrical relations between distributions. In contrast, optimal transport (OT) metrics, are potentially more appealing, as documented by the recent literature on the topic. In this work, we propose the first OT-based estimator for distribution regression. We build on the Sliced Wasserstein distance to obtain an OT-based representation. We study the theoretical properties of a kernel ridge regression estimator based on such representation, for which we prove universal consistency and excess risk bounds. Preliminary experiments complement our theoretical findings by showing the effectiveness of the proposed approach and compare it with MMD-based estimators.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2202.03926.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/distribution-regression-sliced22/distribution-regression-sliced22.png">
+                <pre class="bibtex">@inproceedings{meunier2022distribution,
+  title={Distribution Regression with Sliced Wasserstein Kernels},
+  author={Meunier, Dimitri and Pontil, Massimiliano and Ciliberto, Carlo},
+  booktitle={International Conference on Machine Learning},
+  year={2022}
+}
+</pre>
+                <p class="tags">Distribution Regression, Kernels, Statistical Learning Theory, Wasserstein, Optimal Transport</p>
+              </li>
+
+
+
+
+
+
+              <li>
+                <h3 class="title">Measuring Dissimilarity with Diffeomorphism Invariance</h3> <span class="authors">Théophile Cantelobre, Carlo Ciliberto, Benjamin Guedj, Alessandro Rudi</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICML</span>                <span class="date">2022</span>
+                <p class="abstract">Measures of similarity (or dissimilarity) are a key ingredient to many machine learning algorithms. We introduce DID, a pairwise dissimilarity measure applicable to a wide range of data spaces, which leverages the data's internal structure to be invariant to diffeomorphisms. We prove that DID enjoys properties which make it relevant for theoretical study and practical use. By representing each datum as a function, DID is defined as the solution to an optimization problem in a Reproducing Kernel Hilbert Space and can be expressed in closed-form. In practice, it can be efficiently approximated via Nystr\"om sampling. Empirical experiments support the merits of DID,</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2202.05614.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{cantelobre2022measuring,
+  title={Measuring dissimilarity with diffeomorphism invariance},
+  author={Cantelobre, Théophile and Guedj, Benjamin and Ciliberto, Carlo and Rudi, Alessandro},
+  booktitle={International Conference on Machine Learning},
+  year={2022}
+}
+</pre>
+                <p class="tags">Dissimilarity, Computer Vision, Kernels, Statistical Learning Theory, Nystrom</p>
+              </li>
+
+
+
+
+
+
+
+              <li>
+                <h3 class="title">Implicit Kernel Meta-learning using Kernel Integral Forms</h3> <span class="authors">John Isak Texas Falk, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">UAI</span>                <span class="date">2022</span>
+                <p class="abstract">Meta-learning algorithms have made significant progress in the context of meta-learning for image classification but less attention has been given to the regression setting. In this paper we propose to learn the probability distribution representing a random feature kernel that we wish to use within kernel ridge regression (KRR). We introduce two instances of this meta-learning framework, learning a neural network pushforward for a translation-invariant kernel and an affine pushforward for a neural network random feature kernel, both mapping from a Gaussian latent distribution. We learn the parameters of the pushforward by minimizing a meta-loss associated to the KRR objective. Since the resulting kernel does not admit an analytical form, we adopt a random feature sampling approach to approximate it. We call the resulting method Implicit Kernel Meta-Learning (IKML). We derive a meta-learning bound for IKML, which shows the role played by the number of tasks , the task sample size , and the number of random features . In particular the bound implies that  can be the chosen independently of  and only mildly dependent on . We introduce one synthetic and two real-world meta-learning regression benchmark datasets. Experiments on these datasets show that IKML performs best or close to best when compared against competitive meta-learning methods.</p>
+                <a class="link-pdf" href="https://openreview.net/pdf?id=rNgqwPUsqgq">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{falk2022implicit,
+  title={Incremental Learning-to-Learn with Statistical Guarantees},
+  author={Falk, Isak and Ciliberto, Carlo and Pontil, Massimiliano},
+  journal={Uncertainty in Artificial Intelligence (UAI)},
+  year={2022}
+}
+</pre>
+                <p class="tags">Meta-learning, Kernels, Statistical Learning Theory, Implicit Kernel Learning</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">Modular Adaptive Policy Selection for Multi-Task Imitation Learning through Task Division</h3> <span class="authors">Dafni Antotsiou, Carlo Ciliberto, Tae-Kyun Kim</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICRA</span>                <span class="date">2022</span>
+                <p class="abstract">Deep imitation learning requires many expert demonstrations, which can be hard to obtain, especially when many tasks are involved. However, different tasks often share similarities, so learning them jointly can greatly benefit them and alleviate the need for many demonstrations. But, joint multi-task learning often suffers from negative transfer, sharing information that should be task-specific. In this work, we introduce a method to perform multi-task imitation while allowing for task-specific features. This is done by using proto-policies as modules to divide the tasks into simple sub-behaviours that can be shared. The proto-policies operate in parallel and are adaptively chosen by a selector mechanism that is jointly trained with the modules. Experiments on different sets of tasks show that our method improves upon the accuracy of single agents, task-conditioned and multi-headed multi-task agents, as well as state-of-the-art meta learning agents. We also demonstrate its ability to autonomously divide the tasks into both shared and task-specific sub-behaviours.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2203.14855.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{antotsiou2022modular,
+  title={Modular Adaptive Policy Selection for Multi-Task Imitation Learning through Task Division},
+  author={Antotsiou, Dafni and Ciliberto, Carlo and Kim, Tae-Kyun},
+  booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2022},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags">Meta-learning, Kernels, Statistical Learning Theory, Implicit Kernel Learning</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">The Role of Global Labels in Few-Shot Classification and How to Infer Them</h3> <span class="authors">Ruohan Wang, Massimiliano Pontil, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2021</span>
+                <p class="abstract">Few-shot learning is a central problem in meta-learning, where learners must quickly adapt to new tasks given limited training data. Recently, feature pre-training has become a ubiquitous component in state-of-the-art meta-learning methods and is shown to provide significant performance improvement. However, there is limited theoretical understanding of the connection between pre-training and meta-learning. Further, pre-training requires global labels shared across tasks, which may be unavailable in practice. In this paper, we show why exploiting pre-training is theoretically advantageous for meta-learning, and in particular the critical role of global labels. This motivates us to propose Meta Label Learning (MeLa), a novel meta-learning framework that automatically infers global labels to obtains robust few-shot models. Empirically, we demonstrate that MeLa is competitive with existing methods and provide extensive ablation experiments to highlight its key properties.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2108.04055.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="papers/role-global-labels21/role-global-labels21.png">
+                <pre class="bibtex">@article{wang2021role,
+  title={The Role of Global Labels in Few-Shot Classification and How to Infer Them},
+  author={Wang, Ruohan and Pontil, Massimiliano and Ciliberto, Carlo},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={27160--27170},
+  year={2021}
+}
+</pre>
+                <p class="tags">Meta-learning, Transfer Learning, Global Labels, Pre-training</p>
+              </li>
+
+
+
+
+
+
+
+              <li>
+                <h3 class="title">Psd representations for effective probability models</h3> <span class="authors">Alessandro Rudi, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2021</span>
+                <p class="abstract">Finding a good way to model probability densities is key to probabilistic inference. An ideal model should be able to concisely approximate any probability while being also compatible with two main operations: multiplications of two models (product rule) and marginalization with respect to a subset of the random variables (sum rule). In this work, we show that a recently proposed class of positive semi-definite (PSD) models for non-negative functions is particularly suited to this end. In particular, we characterize both approximation and generalization capabilities of PSD models, showing that they enjoy strong theoretical guarantees. Moreover, we show that we can perform efficiently both sum and product rule in closed form via matrix operations, enjoying the same versatility of mixture models. Our results open the way to applications of PSD models to density estimation, decision theory, and inference.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2106.16116.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{rudi2021psd,
+  title={Psd representations for effective probability models},
+  author={Rudi, Alessandro and Ciliberto, Carlo},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={19411--19422},
+  year={2021}
+}
+</pre>
+                <p class="tags"> Density Estimation, PSD Models, Postive Definite Models</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Adversarial imitation learning with trajectorial augmentation and correction</h3> <span class="authors">Dafni Antotsiou, Carlo Ciliberto, Tae-Kyun Kim</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">ICRA</span>                <span class="date">2021</span>
+                <p class="abstract">Deep Imitation Learning requires a large number of expert demonstrations, which are not always easy to obtain, especially for complex tasks. A way to overcome this shortage of labels is through data augmentation. However, this cannot be easily applied to control tasks due to the sequential nature of the problem. In this work, we introduce a novel augmentation method which preserves the success of the augmented trajectories. To achieve this, we introduce a semi-supervised correction network that aims to correct distorted expert actions. To adequately test the abilities of the correction network, we develop an adversarial data augmented imitation architecture to train an imitation agent using synthetic experts. Additionally, we introduce a metric to measure diversity in trajectory datasets. Experiments show that our data augmentation strategy can improve accuracy and convergence time of adversarial imitation while preserving the diversity between the generated and real trajectories.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2103.13887.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@inproceedings{antotsiou2021adversarial,
+  title={Adversarial imitation learning with trajectorial augmentation and correction},
+  author={Antotsiou, Dafni and Ciliberto, Carlo and Kim, Tae-Kyun},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4724--4730},
+  year={2021},
+  organization={IEEE}
+}
+</pre>
+                <p class="tags"> Adversarial Learning, Imitation Learning</p>
+              </li>
+
+
+
+
+
+              <li>
+                <h3 class="title">Structured Prediction for CRiSP Inverse Kinematics Learning with Misspecified Robot Models</h3> <span class="authors">Gian Maria Marconi, Raffaello Camoriano, Lorenzo Rosasco, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">IEEE Robotics and Automation Letters (RAL)</span>                <span class="date">2021</span>
+                <p class="abstract">With the recent advances in machine learning, problems that traditionally would require accurate modeling to be solved analytically can now be successfully approached with data-driven strategies. Among these, computing the inverse kinematics of a redundant robot arm poses a significant challenge due to the non-linear structure of the robot, the hard joint constraints and the non-invertible kinematics map. Moreover, most learning algorithms consider a completely data-driven approach, while often useful information on the structure of the robot is available and should be positively exploited. In this work, we present a simple, yet effective, approach for learning the inverse kinematics. We introduce a structured prediction algorithm that combines a data-driven strategy with the model provided by a forward kinematics function – even when this function is misspecified – to accurately solve the problem. The proposed approach ensures that predicted joint configurations are well within the robot’s constraints. We also provide statistical guarantees on the generalization properties of our estimator as well as an empirical evaluation of its performance on trajectory reconstruction tasks.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2102.12942.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{marconi2021structured,
+  title={Structured Prediction for CRiSP Inverse Kinematics Learning with Misspecified Robot Models},
+  author={Marconi, Gian Maria and Camoriano, Raffaello and Rosasco, Lorenzo and Ciliberto, Carlo},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={3},
+  pages={5650--5657},
+  year={2021},
+  publisher={IEEE}
+}
+</pre>
+                <p class="tags"> Structured Prediction, Inverse Kinematics, Robotics, Learning</p>
+              </li>
+
+
+
+
+              <li>
+                <h3 class="title">Statistical Limits of Supervised Quantum Learning</h3> <span class="authors">Carlo Ciliberto, Andrea Rocchetto, Alessandro Rudi, Leonard Wossnig</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">Physical Review A</span>                <span class="date">2020</span>
+                <p class="abstract">Within the framework of statistical learning theory it is possible to bound the minimum number of samples required by a learner to reach a target accuracy. We show that if the bound on the accuracy is taken into account, quantum machine learning algorithms for supervised learning—for which statistical guarantees are available—cannot achieve polylogarithmic runtimes in the input dimension. We conclude that, when no further assumptions on the problem are made, quantum machine learning algorithms for supervised learning can have at most polynomial speedups over efficient classical algorithms, even in cases where quantum access to the data is naturally available.</p>
+                <a class="link-pdf" href="https://arxiv.org/pdf/2001.10477.pdf">pdf</a>
+                <a class="link-code" href="">code</a>
+                <a class="link-slides" href="">slides</a>
+                <a class="link-video" href="">video</a>
+                <img class="picture" alt="" src="">
+                <pre class="bibtex">@article{ciliberto2020statistical,
+  title={Statistical limits of supervised quantum learning},
+  author={Ciliberto, Carlo and Rocchetto, Andrea and Rudi, Alessandro and Wossnig, Leonard},
+  journal={Physical Review A},
+  volume={102},
+  number={4},
+  pages={042414},
+  year={2020},
+  publisher={APS}
+}
+</pre>
+                <p class="tags"> Quantum Computing, Statistical Learning Theory</p>
+              </li>
+
+
 
               <li>
                 <h3 class="title">Structured Prediction for Conditional Meta-Learning</h3> <span class="authors">Ruohan Wang, Yiannis Demiris, Carlo Ciliberto</span> <span class="venue type relevance addmsg" type="conference" relevance="3" alert="ORAL">NeurIPS</span>                <span class="date">2020</span>
