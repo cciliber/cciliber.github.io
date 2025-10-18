@@ -1,2 +1,43 @@
-_site
-.sass-cache
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local development
+local/
+
+# Ruby dependencies
+Gemfile.lock
+/vendor/
+.bundle/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*_backup/
+*.bak

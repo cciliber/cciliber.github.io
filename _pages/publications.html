@@ -1,0 +1,40 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- Publications loaded directly from BibTeX (via _data/publications.yml) -->
+<!-- Source: files/publications.bib -> converted to _data/publications.yml -->
+<ul>
+{% for pub in site.data.publications %}
+  <li>
+    {% assign citation_text = pub.citation | remove: '."' | remove: '"' %}
+    {% assign bold_citation = citation_text | replace: "Carlo Ciliberto", "<strong>Carlo Ciliberto</strong>" | replace: "C. Ciliberto", "<strong>C. Ciliberto</strong>" %}
+    {% assign italic_citation = bold_citation | replace: pub.title, "<em>" | append: pub.title | append: "</em>" %}
+    {{ italic_citation }}
+    {% if pub.url %}
+      [<a href="{{ pub.url }}"><strong><em>Paper</em></strong></a>]
+    {% endif %}
+    {% if pub.code %}
+      [<a href="{{ pub.code }}"><strong><em>Code</em></strong></a>]
+    {% endif %}
+    {% if pub.slides %}
+      [<a href="{{ pub.slides }}"><strong><em>Slides</em></strong></a>]
+    {% endif %}
+    {% if pub.video %}
+      [<a href="{{ pub.video }}"><strong><em>Video</em></strong></a>]
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+
