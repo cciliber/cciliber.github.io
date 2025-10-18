@@ -15,15 +15,15 @@ Personal academic website built with [AcademicPages](https://academicpages.githu
 vim files/publications.bib
 
 # 2. Regenerate data file
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 
 # 3. Preview locally
-docker compose up
+docker compose -f .github/dev/docker-compose.yaml up
 
 # 4. Visit http://localhost:4000/publications/
 ```
 
-**See [docs/PUBLICATION_MANAGEMENT.md](docs/PUBLICATION_MANAGEMENT.md) for complete guide.**
+**See [.github/docs/PUBLICATION_MANAGEMENT.md](.github/docs/PUBLICATION_MANAGEMENT.md) for complete guide.**
 
 ---
 
@@ -39,12 +39,10 @@ cciliber.github.io/
 │   ├── publications.bib          # BibTeX source of truth
 │   └── papers/                   # Local PDF files
 ├── images/                       # Images and profile photos
-├── scripts/
-│   └── publications/             # Publication management scripts
-├── docs/                         # Documentation
-│   ├── PUBLICATION_MANAGEMENT.md # Complete publication guide
-│   ├── MIGRATION_HISTORY.md      # Technical migration notes
-│   └── CONTRIBUTING.md           # Contribution guidelines
+├── .github/                      # Repository meta files
+│   ├── scripts/publications/     # Publication management scripts
+│   ├── docs/                     # Documentation
+│   └── dev/                      # Docker development setup
 └── old_site_backup/              # Backup of original HTML site
 ```
 
@@ -57,7 +55,7 @@ cciliber.github.io/
 The easiest way to preview your site locally:
 
 ```bash
-docker compose up
+docker compose -f .github/dev/docker-compose.yaml up
 ```
 
 Visit: http://localhost:4000
@@ -96,8 +94,8 @@ bundle exec jekyll serve -l -H localhost
 ### Workflow
 
 1. **Edit BibTeX file:** Add/edit/delete publications
-2. **Regenerate data:** `uv run python scripts/publications/bibtex_to_data.py`
-3. **Preview:** `docker compose up`
+2. **Regenerate data:** `uv run python .github/scripts/publications/bibtex_to_data.py`
+3. **Preview:** `docker compose -f .github/dev/docker-compose.yaml up`
 4. **Commit:** `git add files/publications.bib _data/publications.yml && git commit -m "Update publications"`
 
 ### Adding Links
@@ -113,7 +111,7 @@ bundle exec jekyll serve -l -H localhost
 }
 ```
 
-**Full documentation:** [docs/PUBLICATION_MANAGEMENT.md](docs/PUBLICATION_MANAGEMENT.md)
+**Full documentation:** [.github/docs/PUBLICATION_MANAGEMENT.md](.github/docs/PUBLICATION_MANAGEMENT.md)
 
 ---
 
@@ -181,22 +179,22 @@ Edit `_pages/about.md`
 
 | Script | Purpose |
 |--------|---------|
-| `scripts/publications/bibtex_to_data.py` | Convert BibTeX → YAML data file (recommended) |
-| `scripts/publications/bibtex_to_publications.py` | Convert BibTeX → Markdown files (alternative) |
-| `scripts/publications/extract_to_bibtex.py` | Extract publication data to BibTeX |
+| `.github/scripts/publications/bibtex_to_data.py` | Convert BibTeX → YAML data file (recommended) |
+| `.github/scripts/publications/bibtex_to_publications.py` | Convert BibTeX → Markdown files (alternative) |
+| `.github/scripts/publications/extract_to_bibtex.py` | Extract publication data to BibTeX |
 
 **Usage:**
 ```bash
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 ```
 
 ---
 
 ## Documentation
 
-- **[docs/PUBLICATION_MANAGEMENT.md](docs/PUBLICATION_MANAGEMENT.md)** - Complete publication workflow guide
-- **[docs/MIGRATION_HISTORY.md](docs/MIGRATION_HISTORY.md)** - Technical migration notes from HTML to Jekyll
-- **[docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)** - Contribution guidelines
+- **[.github/docs/PUBLICATION_MANAGEMENT.md](.github/docs/PUBLICATION_MANAGEMENT.md)** - Complete publication workflow guide
+- **[.github/docs/MIGRATION_HISTORY.md](.github/docs/MIGRATION_HISTORY.md)** - Technical migration notes from HTML to Jekyll
+- **[.github/docs/CONTRIBUTING.md](.github/docs/CONTRIBUTING.md)** - Contribution guidelines
 
 ---
 
@@ -242,8 +240,8 @@ GitHub Pages will automatically:
 
 ```bash
 # Full rebuild
-docker compose down
-docker compose up --build
+docker compose -f .github/dev/docker-compose.yaml down
+docker compose -f .github/dev/docker-compose.yaml up --build
 ```
 
 ### Ruby gem errors
@@ -275,7 +273,7 @@ This site is based on the [AcademicPages](https://academicpages.github.io/) temp
 
 ## Getting Help
 
-1. Check documentation in `docs/` directory
+1. Check documentation in `.github/docs/` directory
 2. Review [AcademicPages documentation](https://academicpages.github.io/)
 3. Check [Jekyll documentation](https://jekyllrb.com/docs/)
 4. Open an issue on [AcademicPages GitHub](https://github.com/academicpages/academicpages.github.io/issues)

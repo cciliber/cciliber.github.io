@@ -26,10 +26,10 @@
 vim files/publications.bib
 
 # 2. Regenerate data file with validation
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 
 # 3. Preview locally
-docker compose up
+docker compose -f .github/dev/docker-compose.yaml up
 
 # 4. Visit http://localhost:4000/publications/
 ```
@@ -51,7 +51,7 @@ Your publications flow through this pipeline:
 │ files/publications.bib  │ ← Edit this (source of truth)
 └──────────┬──────────────┘
            │
-           │ uv run python scripts/publications/bibtex_to_data.py
+           │ uv run python .github/scripts/publications/bibtex_to_data.py
            ▼
 ┌─────────────────────────┐
 │ _data/publications.yml  │ ← Auto-generated YAML data file
@@ -212,7 +212,7 @@ For unpublished work or papers you don't want to link, simply omit `url` and `pd
 The `bibtex_to_data.py` script automatically validates all links:
 
 ```bash
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 ```
 
 ### Validation Report
@@ -284,14 +284,14 @@ pdf = {/Users/carlo/files/papers/my-file.pdf}
 }
 ```
 
-3. Run: `uv run python scripts/publications/bibtex_to_data.py`
-4. Restart Jekyll: `docker compose down && docker compose up`
+3. Run: `uv run python .github/scripts/publications/bibtex_to_data.py`
+4. Restart Jekyll: `docker compose down && docker compose -f .github/dev/docker-compose.yaml up`
 
 ### Delete a Publication
 
 1. Open `files/publications.bib`
 2. Find and delete the entire entry (from `@type{key,` to closing `}`)
-3. Run: `uv run python scripts/publications/bibtex_to_data.py`
+3. Run: `uv run python .github/scripts/publications/bibtex_to_data.py`
 4. Restart Jekyll
 
 ### Edit a Publication
@@ -299,7 +299,7 @@ pdf = {/Users/carlo/files/papers/my-file.pdf}
 1. Open `files/publications.bib`
 2. Find the entry by searching for the title or author
 3. Edit any field
-4. Run: `uv run python scripts/publications/bibtex_to_data.py`
+4. Run: `uv run python .github/scripts/publications/bibtex_to_data.py`
 5. Restart Jekyll
 
 ### Migrate PDFs from Old Site
@@ -335,13 +335,13 @@ grep -c "^@" files/publications.bib
 
 ### Primary Script: `bibtex_to_data.py`
 
-**Location:** `scripts/publications/bibtex_to_data.py`
+**Location:** `.github/scripts/publications/bibtex_to_data.py`
 
 **Purpose:** Converts BibTeX → YAML data file with link validation
 
 **Usage:**
 ```bash
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 ```
 
 **What it does:**
@@ -353,13 +353,13 @@ uv run python scripts/publications/bibtex_to_data.py
 
 ### Alternative Script: `bibtex_to_publications.py`
 
-**Location:** `scripts/publications/bibtex_to_publications.py`
+**Location:** `.github/scripts/publications/bibtex_to_publications.py`
 
 **Purpose:** Converts BibTeX → Individual markdown files
 
 **Usage:**
 ```bash
-uv run python scripts/publications/bibtex_to_publications.py
+uv run python .github/scripts/publications/bibtex_to_publications.py
 ```
 
 **Note:** This script may be deprecated if you're using the data file workflow.
@@ -384,7 +384,7 @@ TIMEOUT = 10  # Line 25 (default is 5 seconds)
 
 **Check:**
 1. Did you run `bibtex_to_data.py` after editing BibTeX?
-2. Did you restart Jekyll? (`docker compose down && docker compose up`)
+2. Did you restart Jekyll? (`docker compose down && docker compose -f .github/dev/docker-compose.yaml up`)
 3. Check `_data/publications.yml` was generated
 4. Visit `http://localhost:4000/publications/`
 
@@ -413,7 +413,7 @@ Some websites block automated requests. Options:
 ```bash
 # Full restart
 docker compose down
-docker compose up --build
+docker compose -f .github/dev/docker-compose.yaml up --build
 
 # Clear browser cache
 # Hard reload: Cmd+Shift+R (Mac) or Ctrl+Shift+R (Windows/Linux)
@@ -470,13 +470,13 @@ cp ~/Downloads/awesome-paper.pdf files/papers/awesome-paper-2024.pdf
 # (add: pdf = {papers/awesome-paper-2024.pdf})
 
 # 4. Regenerate and validate
-uv run python scripts/publications/bibtex_to_data.py
+uv run python .github/scripts/publications/bibtex_to_data.py
 
 # 5. Review validation report
 # (fix any issues identified)
 
 # 6. Preview locally
-docker compose up
+docker compose -f .github/dev/docker-compose.yaml up
 
 # 7. Check in browser
 open http://localhost:4000/publications/
@@ -505,7 +505,7 @@ git push
 
 - **Total publications:** 74
 - **Format:** BibTeX (`files/publications.bib`)
-- **Main script:** `scripts/publications/bibtex_to_data.py`
+- **Main script:** `.github/scripts/publications/bibtex_to_data.py`
 
 ---
 
@@ -525,9 +525,9 @@ If you encounter issues:
 - ✅ `files/publications.bib` is your single source of truth
 - ✅ Use `url` for external links, `pdf` for local files
 - ✅ Place local PDFs in `files/papers/`
-- ✅ Run `uv run python scripts/publications/bibtex_to_data.py` after changes
+- ✅ Run `uv run python .github/scripts/publications/bibtex_to_data.py` after changes
 - ✅ Review validation report and fix issues
-- ✅ Preview with `docker compose up` before pushing
+- ✅ Preview with `docker compose -f .github/dev/docker-compose.yaml up` before pushing
 - ✅ Publications page reads directly from `_data/publications.yml`
 
 ---
