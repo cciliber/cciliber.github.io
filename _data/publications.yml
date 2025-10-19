@@ -7,7 +7,7 @@
   citation: 'J. M. Goo, X. Milidonis, A. Artusi, J. Boehm, and C. Ciliberto. "Hybrid-Segmentor:
     Hybrid approach for automated fine-grained crack segmentation in civil infrastructure".
     Automation in Construction, 2025.'
-  url: ''
+  url: https://arxiv.org/pdf/2409.02866
   code: ''
   slides: ''
   video: ''
@@ -34,7 +34,7 @@
   venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
   citation: R. Wang, M. Ciccone, M. Pontil, and C. Ciliberto. "Schedule-Robust Continual
     Learning". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
-  url: ''
+  url: https://arxiv.org/pdf/2210.05561
   code: ''
   slides: ''
   video: ''
@@ -71,7 +71,7 @@
   venue: Transactions on Machine Learning Research
   citation: R. Wang, W. Fu, and C. Ciliberto. "Deep Tabular Learning via Distillation
     and Language Guidance". Transactions on Machine Learning Research, 2024.
-  url: ''
+  url: https://openreview.net/pdf?id=p6KIteShzf
   code: ''
   slides: ''
   video: ''
@@ -158,7 +158,7 @@
   venue: Uncertainty in Artificial Intelligence
   citation: J. I. T. Falk, C. Cilibert, and M. Pontil. "Implicit kernel meta-learning
     using kernel integral forms". Uncertainty in Artificial Intelligence, 2022.
-  url: ''
+  url: https://proceedings.mlr.press/v180/falk22a/falk22a.pdf
   code: ''
   slides: ''
   video: ''
@@ -173,18 +173,6 @@
     "Learning dynamical systems via Koopman operator regression in reproducing kernel
     Hilbert spaces". Advances in Neural Information Processing Systems, 2022.
   url: http://arxiv.org/abs/2205.14027v4
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: wang2022schedule
-  title: Schedule-robust online continual learning
-  authors: R. Wang, M. Ciccone, G. Luise, A. Yapp, M. Pontil, and C. Ciliberto
-  year: '2022'
-  venue: arXiv preprint arXiv:2210.05561
-  citation: R. Wang, M. Ciccone, G. Luise, A. Yapp, M. Pontil, and C. Ciliberto. "Schedule-robust
-    online continual learning". arXiv preprint arXiv:2210.05561, 2022.
-  url: http://arxiv.org/abs/2210.05561v2
   code: ''
   slides: ''
   video: ''
@@ -253,18 +241,6 @@
   slides: ''
   video: ''
   abstract: ''
-- key: ciliberto2020fast
-  title: Fast quantum learning with statistical guarantees
-  authors: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig
-  year: '2020'
-  venue: arXiv preprint arXiv:2001.10477
-  citation: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig. "Fast quantum learning
-    with statistical guarantees". arXiv preprint arXiv:2001.10477, 2020.
-  url: ''
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
 - key: ciliberto2020general
   title: A general framework for consistent structured prediction with implicit loss
     embeddings
@@ -287,19 +263,6 @@
   citation: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris. "Support-weighted adversarial
     imitation learning". arXiv preprint arXiv:2002.08803, 2020.
   url: http://arxiv.org/abs/2002.08803v1
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: wang2020structured
-  title: A structured prediction approach for conditional meta-learning
-  authors: R. Wang, Y. Demiris, and C. Ciliberto
-  year: '2020'
-  venue: Advances in Neural Information Processing Systems
-  citation: R. Wang, Y. Demiris, and C. Ciliberto. "A structured prediction approach
-    for conditional meta-learning". Advances in Neural Information Processing Systems,
-    2020.
-  url: ''
   code: ''
   slides: ''
   video: ''
@@ -339,7 +302,7 @@
   citation: G. Denevi, M. Pontil, and C. Ciliberto. "The advantage of conditional
     meta-learning for biased regularization and fine tuning". Advances in Neural Information
     Processing Systems, 2020.
-  url: ''
+  url: https://arxiv.org/abs/2008.10857
   code: ''
   slides: ''
   video: ''
@@ -365,7 +328,7 @@
   citation: L. Oneto, M. Donini, G. Luise, C. Ciliberto, A. Maurer, and M. Pontil.
     "Exploiting mmd and sinkhorn divergences for fair and transferable representation
     learning". Advances in Neural Information Processing Systems, 2020.
-  url: ''
+  url: https://proceedings.neurips.cc/paper_files/paper/2020/file/af9c0e0c1dee63e5acad8b7ed1a5be96-Paper.pdf
   code: ''
   slides: ''
   video: ''
@@ -467,7 +430,7 @@
   venue: Advances in Neural Information Processing Systems
   citation: G. Denevi, D. Stamos, C. Ciliberto, and M. Pontil. "Online-within-online
     meta-learning". Advances in Neural Information Processing Systems, 2019.
-  url: ''
+  url: https://papers.nips.cc/paper_files/paper/2019/file/e0e2b58d64fb37a2527329a5ce093d80-Paper.pdf
   code: ''
   slides: ''
   video: ''
@@ -533,7 +496,7 @@
   venue: Advances in neural information processing systems
   citation: G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil. "Learning to learn
     around a common mean". Advances in neural information processing systems, 2018.
-  url: ''
+  url: https://papers.nips.cc/paper_files/paper/2018/file/b9a25e422ba96f7572089a00b838c3f8-Paper.pdf
   code: ''
   slides: ''
   video: ''
@@ -613,7 +576,7 @@
     Ciliberto, P. Davidson, and S. Izadi. "Low compute and fully parallel computer
     vision with hashmatch". Proceedings of the IEEE International Conference on Computer
     Vision, 2017.
-  url: ''
+  url: https://openaccess.thecvf.com/content_ICCV_2017/papers/Fanello_Low_Compute_and_ICCV_2017_paper.pdf
   code: ''
   slides: ''
   video: ''
@@ -625,7 +588,7 @@
   venue: Frontiers in Robotics and AI
   citation: C. Ciliberto. "Connecting YARP to the Web with Yarp. js". Frontiers in
     Robotics and AI, 2017.
-  url: ''
+  url: https://discovery.ucl.ac.uk/id/eprint/10044213/1/frobt-04-00067.pdf
   code: ''
   slides: ''
   video: ''
@@ -654,7 +617,7 @@
   citation: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
     Metta. "Incremental object recognition in robotics with extension to new classes
     in constant time". stat, 2016.
-  url: ''
+  url: https://arxiv.org/pdf/1605.05045
   code: ''
   slides: ''
   video: ''
@@ -696,7 +659,7 @@
   citation: 'N. Jamali, C. Ciliberto, L. Rosasco, and L. Natale. "Active perception:
     Building objects'' models using tactile exploration". 2016 IEEE-RAS 16th International
     Conference on Humanoid Robots (Humanoids), 2016.'
-  url: ''
+  url: https://lornat75.github.io/papers/2016/jamali-humanoids.pdf
   code: ''
   slides: ''
   video: ''
@@ -710,7 +673,7 @@
   citation: B. Higy, C. Ciliberto, L. Rosasco, and L. Natale. "Combining sensory modalities
     and exploratory procedures to improve haptic object recognition in robotics".
     2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids), 2016.
-  url: ''
+  url: https://lornat75.github.io/papers/2016/higy-humanoids.pdf
   code: ''
   slides: ''
   video: ''
@@ -791,7 +754,7 @@
   citation: 'S. Ryan Fanello, N. Noceti, C. Ciliberto, G. Metta, and F. Odone. "Ask
     the image: supervised pooling to preserve feature locality". Proceedings of the
     IEEE Conference on Computer Vision and Pattern Recognition, 2014.'
-  url: ''
+  url: https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Fanello_Ask_the_Image_2014_CVPR_paper.pdf
   code: ''
   slides: ''
   video: ''
@@ -909,56 +872,6 @@
   citation: C. Ciliberto, F. Smeraldi, L. Natale, and G. Metta. "Online multiple instance
     learning applied to hand detection in a humanoid robot". 2011 IEEE/RSJ International
     Conference on Intelligent Robots and Systems, 2011.
-  url: ''
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: wangsupport
-  title: Support-guided Adversarial Imitation Learning
-  authors: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris
-  year: ''
-  venue: Preprint
-  citation: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris. "Support-guided Adversarial
-    Imitation Learning".
-  url: ''
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: cilibertogeneral
-  title: A General Convex Framework for Output Kernel Learning
-  authors: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco
-  year: ''
-  venue: Preprint
-  citation: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco. "A General Convex
-    Framework for Output Kernel Learning".
-  url: ''
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: falkimplicit
-  title: Implicit Kernel Meta-Learning Using Kernel Integral Forms (Supplementary
-    Material)
-  authors: J. I. T. Falk, C. Ciliberto, and M. Pontil
-  year: ''
-  venue: Preprint
-  citation: J. I. T. Falk, C. Ciliberto, and M. Pontil. "Implicit Kernel Meta-Learning
-    Using Kernel Integral Forms (Supplementary Material)".
-  url: ''
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: cilibertoconsistent
-  title: 'A Consistent Regularization Approach to Structured Prediction: Supplementary
-    material'
-  authors: C. Ciliberto, A. Rudi, and L. Rosasco
-  year: ''
-  venue: Preprint
-  citation: 'C. Ciliberto, A. Rudi, and L. Rosasco. "A Consistent Regularization Approach
-    to Structured Prediction: Supplementary material".'
   url: ''
   code: ''
   slides: ''
