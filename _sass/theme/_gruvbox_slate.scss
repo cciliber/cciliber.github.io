@@ -1,0 +1,70 @@
+/* ==========================================================================
+   GRUVBOX SLATE THEME
+   Warm & Retro - Inspired by the Gruvbox theme
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* Gruvbox Slate Palette */
+$background                 : #282828;  // Classic dark charcoal
+$background-light           : #3c3836;  // Warm, dark gray
+$background-lighter         : #504945;  // Lighter surface
+$primary-text               : #EBDBB2;  // Warm, soft cream (for bold/headers)
+$secondary-text             : #D5C4A1;  // Slightly darker, desaturated cream (body text)
+$tertiary-text              : #BDAE93;  // Tertiary text
+$disabled-text              : #928374;  // Muted brownish-gray
+$link                       : #83A598;  // Muted, dusty aqua
+$link-dark                  : #689D6A;  // Darker aqua variant
+$link-light                 : #8EC07C;  // Lighter aqua variant
+$accent-warning             : #FE8019;  // Vibrant, warm orange
+
+/* Color codes used for the site */
+$danger-color               : #FB4934;  // Gruvbox red
+$info-color                 : #83A598;  // Gruvbox aqua
+$notice-color               : #928374;  // Gruvbox gray
+$success-color              : #B8BB26;  // Gruvbox green
+$warning-color              : #FABD2F;  // Gruvbox yellow
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Gruvbox Slate theme for the site */
+html[data-theme="gruvbox-slate"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$background-lighter};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #{$background-lighter};
+    --global-code-text-color            : #{$secondary-text};
+    --global-fig-caption-color          : #{$tertiary-text};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-light};
+    --global-link-color-visited         : #D3869B;  // Gruvbox purple
+    --global-masthead-link-color        : #{$secondary-text};
+    --global-masthead-link-color-hover  : #{$link};
+    --global-text-color                 : #{$secondary-text};
+    --global-text-color-light           : #{$tertiary-text};
+    --global-thead-color                : #{$background-lighter};
+
+    /* Text hierarchy - bold text uses primary color */
+    strong, b, h1, h2, h3, h4, h5, h6 {
+        color: #{$primary-text};
+    }
+
+    /* Italic text uses secondary, or orange accent for emphasis */
+    em, i {
+        color: #{$secondary-text};
+    }
+}

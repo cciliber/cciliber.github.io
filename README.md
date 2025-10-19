@@ -10,18 +10,28 @@ Personal academic website built with [AcademicPages](https://academicpages.githu
 
 ### Update Publications
 
+**Option 1: Manual BibTeX editing**
 ```bash
 # 1. Edit BibTeX file
-vim files/publications.bib
+vim .github/data/publications.bib
 
-# 2. Regenerate data file
+# 2. Add arXiv URLs automatically (optional)
+uv run python .github/scripts/publications/match_arxiv_by_author.py
+
+# 3. Regenerate data file
 uv run python .github/scripts/publications/bibtex_to_data.py
 
-# 3. Preview locally
+# 4. Preview locally
 docker compose -f .github/dev/docker-compose.yaml up
 
-# 4. Visit http://localhost:4000/publications/
+# 5. Visit http://localhost:4000/publications/
 ```
+
+**Option 2: Export from Google Scholar**
+1. Visit your [Google Scholar profile](https://scholar.google.com/citations?user=XUcUAisAAAAJ)
+2. Select publications → Export → BibTeX
+3. Save to `.github/data/publications.bib`
+4. Run step 2-5 above
 
 **See [.github/docs/PUBLICATION_MANAGEMENT.md](.github/docs/PUBLICATION_MANAGEMENT.md) for complete guide.**
 
@@ -33,13 +43,12 @@ docker compose -f .github/dev/docker-compose.yaml up
 cciliber.github.io/
 ├── _config.yml                   # Main Jekyll configuration
 ├── _pages/                       # Site pages (about, publications, CV, etc.)
-├── _publications/                # Publication markdown files (auto-generated)
 ├── _data/                        # YAML data files (publications, navigation, etc.)
-├── files/
-│   ├── publications.bib          # BibTeX source of truth
-│   └── papers/                   # Local PDF files
+├── files/                        # Public files (PDFs, papers, etc.)
 ├── images/                       # Images and profile photos
 ├── .github/                      # Repository meta files
+│   ├── data/
+│   │   └── publications.bib      # BibTeX source of truth
 │   ├── scripts/publications/     # Publication management scripts
 │   ├── docs/                     # Documentation
 │   └── dev/                      # Docker development setup
@@ -89,14 +98,14 @@ bundle exec jekyll serve -l -H localhost
 
 ### Source of Truth
 
-**Edit this file:** `files/publications.bib`
+**Edit this file:** `.github/data/publications.bib`
 
 ### Workflow
 
 1. **Edit BibTeX file:** Add/edit/delete publications
 2. **Regenerate data:** `uv run python .github/scripts/publications/bibtex_to_data.py`
 3. **Preview:** `docker compose -f .github/dev/docker-compose.yaml up`
-4. **Commit:** `git add files/publications.bib _data/publications.yml && git commit -m "Update publications"`
+4. **Commit:** `git add .github/data/publications.bib _data/publications.yml && git commit -m "Update publications"`
 
 ### Adding Links
 
@@ -105,11 +114,14 @@ bundle exec jekyll serve -l -H localhost
   title = {My Paper Title},
   author = {Carlo Ciliberto and Others},
   year = {2024},
-  url = {https://arxiv.org/abs/...},         % External link
-  pdf = {papers/my-paper-2024.pdf},          % Local PDF (in files/papers/)
-  code = {https://github.com/user/repo},     % Code repository
+  url_paper = {https://arxiv.org/abs/...},               % External paper link
+  local_paper = {papers/my-paper-2024.pdf},              % Local PDF (relative to files/)
+  url_code = {https://github.com/user/repo},             % Code repository
+  local_slides = {slides/presentation-2024.pdf},         % Local slides
 }
 ```
+
+**Note:** Old field names (`url`, `pdf`, `code`, etc.) still work for backward compatibility.
 
 **Full documentation:** [.github/docs/PUBLICATION_MANAGEMENT.md](.github/docs/PUBLICATION_MANAGEMENT.md)
 
@@ -179,9 +191,11 @@ Edit `_pages/about.md`
 
 | Script | Purpose |
 |--------|---------|
-| `.github/scripts/publications/bibtex_to_data.py` | Convert BibTeX → YAML data file (recommended) |
-| `.github/scripts/publications/bibtex_to_publications.py` | Convert BibTeX → Markdown files (alternative) |
-| `.github/scripts/publications/extract_to_bibtex.py` | Extract publication data to BibTeX |
+| `.github/scripts/publications/match_arxiv_by_author.py` | Add arXiv URLs by fetching author's papers (recommended) |
+| `.github/scripts/publications/bibtex_to_data.py` | Convert BibTeX → YAML data file (required) |
+| `.github/scripts/publications/add_arxiv_urls.py` | Add arXiv URLs by searching one-by-one (slower alternative) |
+| `.github/scripts/publications/bibtex_to_publications.py` | Convert BibTeX → Markdown files (alternative workflow) |
+| `.github/scripts/publications/extract_to_bibtex.py` | Extract from legacy markdown → Temporary BibTeX file |
 
 **Usage:**
 ```bash

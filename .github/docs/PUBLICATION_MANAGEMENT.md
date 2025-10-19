@@ -102,14 +102,23 @@ Your publications flow through this pipeline:
   year = {2024},
   booktitle = {NeurIPS},
 
-  % Links (all optional)
-  url = {https://arxiv.org/abs/...},          % External paper link
-  pdf = {papers/my-paper-2024.pdf},           % Local PDF (relative to files/)
-  code = {https://github.com/user/repo},      % Code repository
-  slides = {https://slides.com/...},          % Presentation slides
-  video = {https://youtube.com/watch?v=...},  % Video presentation
+  % Links (all optional) - NEW naming scheme
+  url_paper = {https://arxiv.org/abs/...},           % External paper link
+  local_paper = {papers/my-paper-2024.pdf},          % Local PDF (relative to files/)
+  url_code = {https://github.com/user/repo},         % External code repository
+  local_code = {code/my-project-2024.zip},           % Local code archive
+  url_slides = {https://slides.com/...},             % External slides
+  local_slides = {slides/presentation-2024.pdf},     % Local slides PDF
+  url_video = {https://youtube.com/watch?v=...},     % External video
+  local_video = {videos/presentation-2024.mp4},      % Local video file
 }
 ```
+
+**Backward compatibility:** The old field names (`url`, `pdf`, `code`, `slides`, `video`) still work!
+
+**Priority:** `url_*` is checked first, then `local_*`, then old field names.
+
+**Recommendation:** Use the new `url_*` / `local_*` naming for clarity when tracking materials.
 
 ### Citation Keys
 

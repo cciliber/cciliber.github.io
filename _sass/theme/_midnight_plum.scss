@@ -1,0 +1,86 @@
+/* ==========================================================================
+   MIDNIGHT PLUM THEME
+   Elegant & Modern - Deep purple/indigo with electric accents
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* Midnight Plum Palette */
+$background                 : #1A1B26;  // Very dark, deep indigo
+$background-light           : #2A2D3E;  // Muted, dark violet-gray
+$background-lighter         : #3B3F52;  // Lighter surface
+$primary-text               : #E0E0E0;  // Neutral light gray (for bold/headers)
+$secondary-text             : #B8B8B8;  // Clear, mid-light gray (body text)
+$tertiary-text              : #9A9A9A;  // Tertiary text
+$disabled-text              : #707070;  // Disabled/muted text
+$link                       : #6495ED;  // Cornflower blue
+$link-dark                  : #4169E1;  // Royal blue (darker variant)
+$link-light                 : #82a4e3;  // Custom light blue
+$accent-warning             : #F7768E;  // Vibrant magenta/pink
+
+/* Color codes used for the site */
+$danger-color               : #F7768E;  // Vibrant pink
+$info-color                 : #79E6F3;  // Electric cyan
+$notice-color               : #707070;  // Muted gray
+$success-color              : #9ECE6A;  // Soft green
+$warning-color              : #E0AF68;  // Warm yellow
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Midnight Plum theme for the site */
+html[data-theme="midnight-plum"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$background-lighter};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #{$background-lighter};
+    --global-code-text-color            : #{$secondary-text};
+    --global-fig-caption-color          : #{$tertiary-text};
+    --global-link-color                 : #{$link-light};
+    --global-link-color-hover           : #{$link};
+    --global-link-color-visited         : #BB9AF7;  // Soft purple
+    --global-masthead-link-color        : #{$secondary-text};
+    --global-masthead-link-color-hover  : #{$link-light};
+    --global-text-color                 : #{$secondary-text};
+    --global-text-color-light           : #{$tertiary-text};
+    --global-thead-color                : #{$background-lighter};
+
+    /* Text hierarchy - bold text uses primary color */
+    strong, b, h1, h2, h3, h4, h5, h6 {
+        color: #{$primary-text};
+    }
+
+    /* Italic text uses secondary, with subtle magenta hint for emphasis */
+    em, i {
+        color: #{$secondary-text};
+    }
+
+    /* Invert GitHub icon color for visibility in dark mode */
+    .social-icons .fa-github,
+    .social-icons .fa-github-alt,
+    .social-icons .fa-github-square {
+        color: #fff;
+    }
+
+    /* Remove underlines from all links */
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}

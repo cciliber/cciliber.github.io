@@ -1,7 +1,9 @@
 services:
   jekyll-site:
     image: jekyll-site
-    build: ../../
+    build:
+      context: ../../
+      dockerfile: .github/dev/Dockerfile
     volumes: [ ../../:/usr/src/app ]
     ports: [ 4000:4000 ]
     user: 1000:1000

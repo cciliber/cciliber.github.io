@@ -14,6 +14,10 @@
     @include prefix(0.5 of 12);
   }
 
+  @include breakpoint($x-large) {
+    max-width: 1000px;  // Narrower content for better readability
+  }
+
   a {
     text-decoration: underline;
 

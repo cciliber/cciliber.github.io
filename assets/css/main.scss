@@ -14,6 +14,9 @@
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "theme/nordic_night",
+    "theme/gruvbox_slate",
+    "theme/midnight_plum",
 
     "include/mixins",
     "vendor/susy/susy",

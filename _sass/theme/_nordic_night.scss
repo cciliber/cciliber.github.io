@@ -1,0 +1,70 @@
+/* ==========================================================================
+   NORDIC NIGHT THEME
+   Cool & Professional - Inspired by the Nord theme
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+
+/* Nordic Night Palette */
+$background                 : #2E3440;  // Deep, cool gray-blue
+$background-light           : #3B4252;  // Slightly lighter surface for cards/modals
+$background-lighter         : #434C5E;  // UI elements
+$primary-text               : #ECEFF4;  // Very light, almost white gray (for bold/headers)
+$secondary-text             : #E5E9F0;  // Slightly softer light gray (body text)
+$tertiary-text              : #D8DEE9;  // Tertiary text
+$disabled-text              : #4C566A;  // Disabled/muted text
+$link                       : #88C0D0;  // Frosty, muted blue
+$link-dark                  : #5E81AC;  // Darker blue variant
+$link-light                 : #8FBCBB;  // Lighter aqua variant
+$accent-warning             : #BF616A;  // Muted red for warnings/highlights
+
+/* Color codes used for the site */
+$danger-color               : #BF616A;  // Nord red
+$info-color                 : #5E81AC;  // Nord blue
+$notice-color               : #4C566A;  // Nord gray
+$success-color              : #A3BE8C;  // Nord green
+$warning-color              : #EBCB8B;  // Nord yellow
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Nordic Night theme for the site */
+html[data-theme="nordic-night"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$background-lighter};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #{$background-lighter};
+    --global-code-text-color            : #{$secondary-text};
+    --global-fig-caption-color          : #{$tertiary-text};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-light};
+    --global-link-color-visited         : #B48EAD;  // Nord purple
+    --global-masthead-link-color        : #{$secondary-text};
+    --global-masthead-link-color-hover  : #{$link};
+    --global-text-color                 : #{$secondary-text};
+    --global-text-color-light           : #{$tertiary-text};
+    --global-thead-color                : #{$background-lighter};
+
+    /* Text hierarchy - bold text uses primary color */
+    strong, b, h1, h2, h3, h4, h5, h6 {
+        color: #{$primary-text};
+    }
+
+    /* Italic text can use accent for special terms */
+    em, i {
+        color: #{$secondary-text};
+    }
+}

@@ -252,10 +252,11 @@ body:hover .visually-hidden button {
     color: $lastfm-color;
   }
 
-  .fa-linkedin,
-  .fa-linkedin-square {
-    color: $linkedin-color;
-  }
+  // LinkedIn icon inherits default text color to match theme (black/white)
+  // .fa-linkedin,
+  // .fa-linkedin-square {
+  //   color: $linkedin-color;
+  // }
 
   .fa-mastodon,
   .fa-mastodon-square {

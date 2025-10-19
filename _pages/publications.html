@@ -12,29 +12,55 @@ author_profile: true
 {% include base_path %}
 
 <!-- Publications loaded directly from BibTeX (via _data/publications.yml) -->
-<!-- Source: files/publications.bib -> converted to _data/publications.yml -->
+<!-- Source: .github/data/publications.bib -> converted to _data/publications.yml -->
 <ul>
 {% for pub in site.data.publications %}
   <li>
-    {% assign citation_text = pub.citation | remove: '."' | remove: '"' %}
+    {% comment %} Build the title - either as link or styled span {% endcomment %}
+    {% assign quoted_title = '"' | append: pub.title | append: '"' %}
+    {% if pub.url != "" and pub.url != nil %}
+      {% assign title_html = '<a href="' | append: pub.url | append: '" class="publication-title">' | append: pub.title | append: '</a>' %}
+    {% else %}
+      {% assign title_html = '<span class="publication-title">' | append: pub.title | append: '</span>' %}
+    {% endif %}
+    {% assign citation_text = pub.citation | replace: quoted_title, title_html %}
+
+    {% comment %} Bold author name {% endcomment %}
     {% assign bold_citation = citation_text | replace: "Carlo Ciliberto", "<strong>Carlo Ciliberto</strong>" | replace: "C. Ciliberto", "<strong>C. Ciliberto</strong>" %}
-    {% assign italic_citation = bold_citation | replace: pub.title, "<em>" | append: pub.title | append: "</em>" %}
-    {{ italic_citation }}
-    {% if pub.url %}
-      [<a href="{{ pub.url }}"><strong><em>Paper</em></strong></a>]
+
+    {{ bold_citation }}
+
+    {% comment %} Only show additional links if they exist and are not empty {% endcomment %}
+    {% if pub.code != "" and pub.code != nil %}
+      [<a href="{{ pub.code }}">Code</a>]
     {% endif %}
-    {% if pub.code %}
-      [<a href="{{ pub.code }}"><strong><em>Code</em></strong></a>]
+    {% if pub.slides != "" and pub.slides != nil %}
+      [<a href="{{ pub.slides }}">Slides</a>]
     {% endif %}
-    {% if pub.slides %}
-      [<a href="{{ pub.slides }}"><strong><em>Slides</em></strong></a>]
-    {% endif %}
-    {% if pub.video %}
-      [<a href="{{ pub.video }}"><strong><em>Video</em></strong></a>]
+    {% if pub.video != "" and pub.video != nil %}
+      [<a href="{{ pub.video }}">Video</a>]
     {% endif %}
   </li>
 {% endfor %}
 </ul>
+
+<style>
+.publication-title {
+  color: #82a4e3; /* Custom light blue */
+  font-weight: bold;
+  text-decoration: none;
+}
+.publication-title:hover {
+  color: #6495ED; /* Cornflower blue on hover */
+}
+ul li a {
+  color: #82a4e3; /* Custom light blue for Code/Slides/Video links */
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #6495ED; /* Cornflower blue on hover */
+}
+</style>
 
 
 

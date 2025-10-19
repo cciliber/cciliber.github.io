@@ -23,6 +23,10 @@
     @include suffix(2 of 12);
   }
 
+  @include breakpoint($x-large) {
+    max-width: 1000px;  // Narrower content for better readability
+  }
+
   .page__inner-wrap {
     @include full();
 
@@ -73,7 +77,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;

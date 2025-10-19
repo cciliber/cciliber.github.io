@@ -1,965 +1,965 @@
-- key: hybridsegmentorhybrid2025
+- key: goo2025hybrid
   title: 'Hybrid-Segmentor: Hybrid approach for automated fine-grained crack segmentation
     in civil infrastructure'
-  authors: June Moh Goo, Xenios Milidonis, Alessandro Artusi, Jan Boehm, and Carlo
-    Ciliberto
+  authors: J. M. Goo, X. Milidonis, A. Artusi, J. Boehm, and C. Ciliberto
   year: '2025'
-  venue: Preprint
-  citation: 'June Moh Goo, Xenios Milidonis, Alessandro Artusi, Jan Boehm, and Carlo
-    Ciliberto. "Hybrid-Segmentor: Hybrid approach for automated fine-grained crack
-    segmentation in civil infrastructure", 2025.'
-  url: https://www.sciencedirect.com/science/article/pii/S0926580524006964
+  venue: Automation in Construction
+  citation: 'J. M. Goo, X. Milidonis, A. Artusi, J. Boehm, and C. Ciliberto. "Hybrid-Segmentor:
+    Hybrid approach for automated fine-grained crack segmentation in civil infrastructure".
+    Automation in Construction, 2025.'
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: schedulerobustcontinual2025
-  title: Schedule-Robust Continual Learning
-  authors: Ruohan Wang, Marco Ciccone, Massimiliano Pontil, and Carlo Ciliberto
-  year: '2025'
-  venue: Preprint
-  citation: Ruohan Wang, Marco Ciccone, Massimiliano Pontil, and Carlo Ciliberto.
-    "Schedule-Robust Continual Learning", 2025.
-  url: https://ieeexplore.ieee.org/abstract/document/11192236/
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: dreamernavlearningbased2025
+- key: shanks2025dreamernav
   title: 'DreamerNav: learning-based autonomous navigation in dynamic indoor environments
     using world models'
-  authors: Stuart Shanks, Jonathan Embley-Riches, Jianheng Liu, Andromachi Maria Delfaki,
-    Carlo Ciliberto, and Dimitrios Kanoulas
+  authors: S. Shanks, J. Embley-Riches, J. Liu, A. M. Delfaki, C. Ciliberto, and D.
+    Kanoulas
   year: '2025'
-  venue: Preprint
-  citation: 'Stuart Shanks, Jonathan Embley-Riches, Jianheng Liu, Andromachi Maria
-    Delfaki, Carlo Ciliberto, and Dimitrios Kanoulas. "DreamerNav: learning-based
-    autonomous navigation in dynamic indoor environments using world models", 2025.'
-  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12510832/
+  venue: Frontiers in Robotics and AI
+  citation: 'S. Shanks, J. Embley-Riches, J. Liu, A. M. Delfaki, C. Ciliberto, and
+    D. Kanoulas. "DreamerNav: learning-based autonomous navigation in dynamic indoor
+    environments using world models". Frontiers in Robotics and AI, 2025.'
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: operatorworldmodels2024
+- key: wang2025schedule
+  title: Schedule-Robust Continual Learning
+  authors: R. Wang, M. Ciccone, M. Pontil, and C. Ciliberto
+  year: '2025'
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  citation: R. Wang, M. Ciccone, M. Pontil, and C. Ciliberto. "Schedule-Robust Continual
+    Learning". IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: cantelobre2024closed
+  title: Closed-form Filtering for Non-linear Systems
+  authors: T. Cantelobre, C. Ciliberto, B. Guedj, and A. Rudi
+  year: '2024'
+  venue: arXiv preprint arXiv:2402.09796
+  citation: T. Cantelobre, C. Ciliberto, B. Guedj, and A. Rudi. "Closed-form Filtering
+    for Non-linear Systems". arXiv preprint arXiv:2402.09796, 2024.
+  url: http://arxiv.org/abs/2402.09796v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: novelli2024operator
   title: Operator world models for reinforcement learning
-  authors: Pietro Novelli, Marco Pratticò, Massimiliano Pontil, and Carlo Ciliberto
+  authors: P. Novelli, M. Pratticò, M. Pontil, and C. Ciliberto
   year: '2024'
-  venue: Preprint
-  citation: Pietro Novelli, Marco Pratticò, Massimiliano Pontil, and Carlo Ciliberto.
-    "Operator world models for reinforcement learning", 2024.
-  url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9da56addea9c977cf4ba873e1da979d-Abstract-Conference.html
+  venue: Advances in Neural Information Processing Systems
+  citation: P. Novelli, M. Pratticò, M. Pontil, and C. Ciliberto. "Operator world
+    models for reinforcement learning". Advances in Neural Information Processing
+    Systems, 2024.
+  url: http://arxiv.org/abs/2406.19861v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: hybridsegmentora2024
-  title: 'Hybrid-Segmentor: A Hybrid Approach to Automated Damage Detection on Civil
-    Infrastructure'
-  authors: June Moh Goo, Xenios Milidonis, Alessandro Artusi, and Carlo Ciliberto
+- key: wangdeep
+  title: Deep Tabular Learning via Distillation and Language Guidance
+  authors: R. Wang, W. Fu, and C. Ciliberto
   year: '2024'
-  venue: Preprint
-  citation: 'June Moh Goo, Xenios Milidonis, Alessandro Artusi, and Carlo Ciliberto.
-    "Hybrid-Segmentor: A Hybrid Approach to Automated Damage Detection on Civil Infrastructure",
-    2024.'
-  url: https://www.authorea.com/doi/full/10.36227/techrxiv.170775714.48894818
+  venue: Transactions on Machine Learning Research
+  citation: R. Wang, W. Fu, and C. Ciliberto. "Deep Tabular Learning via Distillation
+    and Language Guidance". Transactions on Machine Learning Research, 2024.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: robustmetarepresentation2023
-  title: Robust meta-representation learning via global label inference and classification
-  authors: Ruohan Wang, John Isak Texas Falk, Massimiliano Pontil, and Carlo Ciliberto
-  year: '2023'
-  venue: Preprint
-  citation: Ruohan Wang, John Isak Texas Falk, Massimiliano Pontil, and Carlo Ciliberto.
-    "Robust meta-representation learning via global label inference and classification",
-    2023.
-  url: https://ieeexplore.ieee.org/abstract/document/10298810/
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: reexamininglowrank2023
+- key: ciliberto2023reexamining
   title: Reexamining low rank matrix factorization for trace norm regularization
-  authors: Carlo Ciliberto, Massimiliano Pontil, and Dimitrios Stamos
+  authors: C. Ciliberto, M. Pontil, and D. Stamos
   year: '2023'
-  venue: Preprint
-  citation: Carlo Ciliberto, Massimiliano Pontil, and Dimitrios Stamos. "Reexamining
-    low rank matrix factorization for trace norm regularization", 2023.
-  url: https://www.aimspress.com/aimspress-data/mine/2023/3/PDF/mine-05-03-053.pdf
+  venue: Mathematics in Engineering
+  citation: C. Ciliberto, M. Pontil, and D. Stamos. "Reexamining low rank matrix factorization
+    for trace norm regularization". Mathematics in Engineering, 2023.
+  url: http://arxiv.org/abs/1706.08934v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: learningdynamicalsystems2022
-  title: Learning dynamical systems via Koopman operator regression in reproducing
-    kernel Hilbert spaces
-  authors: Vladimir Kostic, Pietro Novelli, Andreas Maurer, Carlo Ciliberto, Lorenzo
-    Rosasco, and Massimiliano Pontil
-  year: '2022'
-  venue: Preprint
-  citation: Vladimir Kostic, Pietro Novelli, Andreas Maurer, Carlo Ciliberto, Lorenzo
-    Rosasco, and Massimiliano Pontil. "Learning dynamical systems via Koopman operator
-    regression in reproducing kernel Hilbert spaces", 2022.
-  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/196c4e02b7464c554f0f5646af5d502e-Abstract-Conference.html
+- key: wang2023robust
+  title: Robust meta-representation learning via global label inference and classification
+  authors: R. Wang, J. I. T. Falk, M. Pontil, and C. Ciliberto
+  year: '2023'
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  citation: R. Wang, J. I. T. Falk, M. Pontil, and C. Ciliberto. "Robust meta-representation
+    learning via global label inference and classification". IEEE Transactions on
+    Pattern Analysis and Machine Intelligence, 2023.
+  url: http://arxiv.org/abs/2212.11702v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: distributionregressionwith2022
-  title: Distribution regression with sliced Wasserstein kernels
-  authors: Dimitri Meunier, Massimiliano Pontil, and Carlo Ciliberto
-  year: '2022'
-  venue: Preprint
-  citation: Dimitri Meunier, Massimiliano Pontil, and Carlo Ciliberto. "Distribution
-    regression with sliced Wasserstein kernels", 2022.
-  url: https://proceedings.mlr.press/v162/meunier22b.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: conditionalmetalearning2022
+- key: denevi2022conditional
   title: Conditional meta-learning of linear representations
-  authors: Giulia Denevi, Massimiliano Pontil, and Carlo Ciliberto
+  authors: G. Denevi, M. Pontil, and C. Ciliberto
   year: '2022'
-  venue: Preprint
-  citation: Giulia Denevi, Massimiliano Pontil, and Carlo Ciliberto. "Conditional
-    meta-learning of linear representations", 2022.
-  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01ecd39ca49ddecc5729ca996304781b-Abstract-Conference.html
+  venue: Advances in Neural Information Processing Systems
+  citation: G. Denevi, M. Pontil, and C. Ciliberto. "Conditional meta-learning of
+    linear representations". Advances in Neural Information Processing Systems, 2022.
+  url: http://arxiv.org/abs/2103.16277v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: schedulerobustonline2022
-  title: Schedule-robust online continual learning
-  authors: Ruohan Wang, Marco Ciccone, Giulia Luise, Andrew Yapp, Massimiliano Pontil,
-    and Carlo Ciliberto
+- key: meunier2022distribution
+  title: Distribution regression with sliced Wasserstein kernels
+  authors: D. Meunier, M. Pontil, and C. Ciliberto
   year: '2022'
-  venue: Preprint
-  citation: Ruohan Wang, Marco Ciccone, Giulia Luise, Andrew Yapp, Massimiliano Pontil,
-    and Carlo Ciliberto. "Schedule-robust online continual learning", 2022.
-  url: https://arxiv.org/abs/2210.05561
+  venue: International Conference on Machine Learning
+  citation: D. Meunier, M. Pontil, and C. Ciliberto. "Distribution regression with
+    sliced Wasserstein kernels". International Conference on Machine Learning, 2022.
+  url: http://arxiv.org/abs/2202.03926v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: implicitkernelmeta2022
-  title: Implicit kernel meta-learning using kernel integral forms
-  authors: John Isak Texas Falk, Carlo Cilibert, and Massimiliano Pontil
+- key: cantelobre2022measuring
+  title: Measuring dissimilarity with diffeomorphism invariance
+  authors: T. Cantelobre, C. Ciliberto, B. Guedj, and A. Rudi
   year: '2022'
-  venue: Preprint
-  citation: John Isak Texas Falk, Carlo Cilibert, and Massimiliano Pontil. "Implicit
-    kernel meta-learning using kernel integral forms", 2022.
-  url: https://proceedings.mlr.press/v180/falk22a.html
+  venue: arXiv preprint arXiv:2202.05614
+  citation: T. Cantelobre, C. Ciliberto, B. Guedj, and A. Rudi. "Measuring dissimilarity
+    with diffeomorphism invariance". arXiv preprint arXiv:2202.05614, 2022.
+  url: http://arxiv.org/abs/2202.05614v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: modularadaptivepolicy2022
+- key: antotsiou2022modular
   title: Modular adaptive policy selection for multi-task imitation learning through
     task division
-  authors: Dafni Antotsiou, Carlo Ciliberto, and Tae–Kyun Kim
+  authors: D. Antotsiou, C. Ciliberto, and T. Kim
   year: '2022'
-  venue: Preprint
-  citation: Dafni Antotsiou, Carlo Ciliberto, and Tae–Kyun Kim. "Modular adaptive
-    policy selection for multi-task imitation learning through task division", 2022.
-  url: https://ieeexplore.ieee.org/abstract/document/9811819/
+  venue: 2022 International Conference on Robotics and Automation (ICRA)
+  citation: D. Antotsiou, C. Ciliberto, and T. Kim. "Modular adaptive policy selection
+    for multi-task imitation learning through task division". 2022 International Conference
+    on Robotics and Automation (ICRA), 2022.
+  url: http://arxiv.org/abs/2203.14855v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: measuringdissimilaritywith2022
-  title: Measuring dissimilarity with diffeomorphism invariance
-  authors: Théophile Cantelobre, Carlo Ciliberto, Benjamin Guedj, and Alessandro Rudi
+- key: falk2022implicit
+  title: Implicit kernel meta-learning using kernel integral forms
+  authors: J. I. T. Falk, C. Cilibert, and M. Pontil
   year: '2022'
-  venue: Preprint
-  citation: Théophile Cantelobre, Carlo Ciliberto, Benjamin Guedj, and Alessandro
-    Rudi. "Measuring dissimilarity with diffeomorphism invariance", 2022.
-  url: https://arxiv.org/abs/2202.05614
+  venue: Uncertainty in Artificial Intelligence
+  citation: J. I. T. Falk, C. Cilibert, and M. Pontil. "Implicit kernel meta-learning
+    using kernel integral forms". Uncertainty in Artificial Intelligence, 2022.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: psdrepresentationsfor2021
-  title: PSD representations for effective probability models
-  authors: Alessandro Rudi and Carlo Ciliberto
-  year: '2021'
-  venue: Preprint
-  citation: Alessandro Rudi and Carlo Ciliberto. "PSD representations for effective
-    probability models", 2021.
-  url: https://proceedings.neurips.cc/paper/2021/hash/a1b63b36ba67b15d2f47da55cdb8018d-Abstract.html
+- key: kostic2022learning
+  title: Learning dynamical systems via Koopman operator regression in reproducing
+    kernel Hilbert spaces
+  authors: V. Kostic, P. Novelli, A. Maurer, C. Ciliberto, L. Rosasco, and M. Pontil
+  year: '2022'
+  venue: Advances in Neural Information Processing Systems
+  citation: V. Kostic, P. Novelli, A. Maurer, C. Ciliberto, L. Rosasco, and M. Pontil.
+    "Learning dynamical systems via Koopman operator regression in reproducing kernel
+    Hilbert spaces". Advances in Neural Information Processing Systems, 2022.
+  url: http://arxiv.org/abs/2205.14027v4
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: adversarialimitationlearning2021
-  title: Adversarial imitation learning with trajectorial augmentation and correction
-  authors: Dafni Antotsiou, Carlo Ciliberto, and Tae-Kyun Kim
-  year: '2021'
-  venue: Preprint
-  citation: Dafni Antotsiou, Carlo Ciliberto, and Tae-Kyun Kim. "Adversarial imitation
-    learning with trajectorial augmentation and correction", 2021.
-  url: https://ieeexplore.ieee.org/abstract/document/9561915/
+- key: wang2022schedule
+  title: Schedule-robust online continual learning
+  authors: R. Wang, M. Ciccone, G. Luise, A. Yapp, M. Pontil, and C. Ciliberto
+  year: '2022'
+  venue: arXiv preprint arXiv:2210.05561
+  citation: R. Wang, M. Ciccone, G. Luise, A. Yapp, M. Pontil, and C. Ciliberto. "Schedule-robust
+    online continual learning". arXiv preprint arXiv:2210.05561, 2022.
+  url: http://arxiv.org/abs/2210.05561v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: theroleof2021
-  title: The role of global labels in few-shot classification and how to infer them
-  authors: Ruohan Wang, Massimiliano Pontil, and Carlo Ciliberto
-  year: '2021'
-  venue: Preprint
-  citation: Ruohan Wang, Massimiliano Pontil, and Carlo Ciliberto. "The role of global
-    labels in few-shot classification and how to infer them", 2021.
-  url: https://proceedings.neurips.cc/paper/2021/hash/e3b6fb0fd4df098162eede3313c54a8d-Abstract.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: structuredpredictionfor2021
+- key: marconi2021structured
   title: Structured prediction for CRiSP inverse kinematics learning with misspecified
     robot models
-  authors: Gian Maria Marconi, Raffaello Camoriano, Lorenzo Rosasco, and Carlo Ciliberto
+  authors: G. M. Marconi, R. Camoriano, L. Rosasco, and C. Ciliberto
   year: '2021'
-  venue: Preprint
-  citation: Gian Maria Marconi, Raffaello Camoriano, Lorenzo Rosasco, and Carlo Ciliberto.
-    "Structured prediction for CRiSP inverse kinematics learning with misspecified
-    robot models", 2021.
-  url: https://ieeexplore.ieee.org/abstract/document/9369868/
+  venue: IEEE Robotics and Automation Letters
+  citation: G. M. Marconi, R. Camoriano, L. Rosasco, and C. Ciliberto. "Structured
+    prediction for CRiSP inverse kinematics learning with misspecified robot models".
+    IEEE Robotics and Automation Letters, 2021.
+  url: http://arxiv.org/abs/2102.12942v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: exploitingmmdand2020
-  title: Exploiting mmd and sinkhorn divergences for fair and transferable representation
-    learning
-  authors: Luca Oneto, Michele Donini, Giulia Luise, Carlo Ciliberto, Andreas Maurer,
-    and Massimiliano Pontil
+- key: antotsiou2021adversarial
+  title: Adversarial imitation learning with trajectorial augmentation and correction
+  authors: D. Antotsiou, C. Ciliberto, and T. Kim
+  year: '2021'
+  venue: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  citation: D. Antotsiou, C. Ciliberto, and T. Kim. "Adversarial imitation learning
+    with trajectorial augmentation and correction". 2021 IEEE International Conference
+    on Robotics and Automation (ICRA), 2021.
+  url: http://arxiv.org/abs/2103.13887v2
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: rudi2021psd
+  title: PSD representations for effective probability models
+  authors: A. Rudi and C. Ciliberto
+  year: '2021'
+  venue: Advances in Neural Information Processing Systems
+  citation: A. Rudi and C. Ciliberto. "PSD representations for effective probability
+    models". Advances in Neural Information Processing Systems, 2021.
+  url: http://arxiv.org/abs/2106.16116v3
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: wang2021role
+  title: The role of global labels in few-shot classification and how to infer them
+  authors: R. Wang, M. Pontil, and C. Ciliberto
+  year: '2021'
+  venue: Advances in Neural Information Processing Systems
+  citation: R. Wang, M. Pontil, and C. Ciliberto. "The role of global labels in few-shot
+    classification and how to infer them". Advances in Neural Information Processing
+    Systems, 2021.
+  url: http://arxiv.org/abs/2108.04055v2
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: rudi2020approximating
+  title: Approximating Hamiltonian dynamics with the Nyström method
+  authors: A. Rudi, L. Wossnig, C. Ciliberto, A. Rocchetto, M. Pontil, and S. Severini
   year: '2020'
-  venue: Preprint
-  citation: Luca Oneto, Michele Donini, Giulia Luise, Carlo Ciliberto, Andreas Maurer,
-    and Massimiliano Pontil. "Exploiting mmd and sinkhorn divergences for fair and
-    transferable representation learning", 2020.
-  url: https://proceedings.neurips.cc/paper/2020/hash/af9c0e0c1dee63e5acad8b7ed1a5be96-Abstract.html
+  venue: Quantum
+  citation: A. Rudi, L. Wossnig, C. Ciliberto, A. Rocchetto, M. Pontil, and S. Severini.
+    "Approximating Hamiltonian dynamics with the Nyström method". Quantum, 2020.
+  url: http://arxiv.org/abs/1804.02484v4
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: ageneralframework2020
+- key: ciliberto2020fast
+  title: Fast quantum learning with statistical guarantees
+  authors: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig
+  year: '2020'
+  venue: arXiv preprint arXiv:2001.10477
+  citation: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig. "Fast quantum learning
+    with statistical guarantees". arXiv preprint arXiv:2001.10477, 2020.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: ciliberto2020general
   title: A general framework for consistent structured prediction with implicit loss
     embeddings
-  authors: Carlo Ciliberto, Lorenzo Rosasco, and Alessandro Rudi
+  authors: C. Ciliberto, L. Rosasco, and A. Rudi
   year: '2020'
-  venue: Preprint
-  citation: Carlo Ciliberto, Lorenzo Rosasco, and Alessandro Rudi. "A general framework
-    for consistent structured prediction with implicit loss embeddings", 2020.
-  url: http://www.jmlr.org/papers/v21/20-097.html
+  venue: Journal of Machine Learning Research
+  citation: C. Ciliberto, L. Rosasco, and A. Rudi. "A general framework for consistent
+    structured prediction with implicit loss embeddings". Journal of Machine Learning
+    Research, 2020.
+  url: http://arxiv.org/abs/2002.05424v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: theadvantageof2020
-  title: The advantage of conditional meta-learning for biased regularization and
-    fine tuning
-  authors: Giulia Denevi, Massimiliano Pontil, and Carlo Ciliberto
+- key: wang2020support
+  title: Support-weighted adversarial imitation learning
+  authors: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris
   year: '2020'
-  venue: Preprint
-  citation: Giulia Denevi, Massimiliano Pontil, and Carlo Ciliberto. "The advantage
-    of conditional meta-learning for biased regularization and fine tuning", 2020.
-  url: https://proceedings.neurips.cc/paper/2020/hash/0a716fe8c7745e51a3185fc8be6ca23a-Abstract.html
+  venue: arXiv preprint arXiv:2002.08803
+  citation: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris. "Support-weighted adversarial
+    imitation learning". arXiv preprint arXiv:2002.08803, 2020.
+  url: http://arxiv.org/abs/2002.08803v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: generalizationpropertiesof2020
+- key: wang2020structured
+  title: A structured prediction approach for conditional meta-learning
+  authors: R. Wang, Y. Demiris, and C. Ciliberto
+  year: '2020'
+  venue: Advances in Neural Information Processing Systems
+  citation: R. Wang, Y. Demiris, and C. Ciliberto. "A structured prediction approach
+    for conditional meta-learning". Advances in Neural Information Processing Systems,
+    2020.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: marconi2020hyperbolic
+  title: Hyperbolic manifold regression
+  authors: G. Marconi, C. Ciliberto, and L. Rosasco
+  year: '2020'
+  venue: International Conference on Artificial Intelligence and Statistics
+  citation: G. Marconi, C. Ciliberto, and L. Rosasco. "Hyperbolic manifold regression".
+    International Conference on Artificial Intelligence and Statistics, 2020.
+  url: http://arxiv.org/abs/2005.13885v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: luise2020generalization
   title: Generalization properties of optimal transport GANs with latent distribution
     learning
-  authors: Giulia Luise, Massimiliano Pontil, and Carlo Ciliberto
+  authors: G. Luise, M. Pontil, and C. Ciliberto
   year: '2020'
-  venue: Preprint
-  citation: Giulia Luise, Massimiliano Pontil, and Carlo Ciliberto. "Generalization
-    properties of optimal transport GANs with latent distribution learning", 2020.
-  url: https://arxiv.org/abs/2007.14641
+  venue: arXiv preprint arXiv:2007.14641
+  citation: G. Luise, M. Pontil, and C. Ciliberto. "Generalization properties of optimal
+    transport GANs with latent distribution learning". arXiv preprint arXiv:2007.14641,
+    2020.
+  url: http://arxiv.org/abs/2007.14641v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: structuredpredictionfor2020
-  title: Structured prediction for conditional meta-learning
-  authors: Ruohan Wang, Yiannis Demiris, and Carlo Ciliberto
+- key: denevi2020advantage
+  title: The advantage of conditional meta-learning for biased regularization and
+    fine tuning
+  authors: G. Denevi, M. Pontil, and C. Ciliberto
   year: '2020'
-  venue: Preprint
-  citation: Ruohan Wang, Yiannis Demiris, and Carlo Ciliberto. "Structured prediction
-    for conditional meta-learning", 2020.
-  url: https://proceedings.neurips.cc/paper/2020/hash/1b69ebedb522700034547abc5652ffac-Abstract.html
+  venue: Advances in Neural Information Processing Systems
+  citation: G. Denevi, M. Pontil, and C. Ciliberto. "The advantage of conditional
+    meta-learning for biased regularization and fine tuning". Advances in Neural Information
+    Processing Systems, 2020.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: statisticallimitsof2020
+- key: ciliberto2020statistical
   title: Statistical limits of supervised quantum learning
-  authors: Carlo Ciliberto, Andrea Rocchetto, Alessandro Rudi, and Leonard Wossnig
+  authors: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig
   year: '2020'
-  venue: Preprint
-  citation: Carlo Ciliberto, Andrea Rocchetto, Alessandro Rudi, and Leonard Wossnig.
-    "Statistical limits of supervised quantum learning", 2020.
-  url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.042414
+  venue: Physical Review A
+  citation: C. Ciliberto, A. Rocchetto, A. Rudi, and L. Wossnig. "Statistical limits
+    of supervised quantum learning". Physical Review A, 2020.
+  url: http://arxiv.org/abs/2001.10477v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: approximatinghamiltoniandynamics2020
-  title: Approximating Hamiltonian dynamics with the Nyström method
-  authors: Alessandro Rudi, Leonard Wossnig, Carlo Ciliberto, Andrea Rocchetto, Massimiliano
-    Pontil, and Simone Severini
+- key: oneto2020exploiting
+  title: Exploiting mmd and sinkhorn divergences for fair and transferable representation
+    learning
+  authors: L. Oneto, M. Donini, G. Luise, C. Ciliberto, A. Maurer, and M. Pontil
   year: '2020'
-  venue: Preprint
-  citation: Alessandro Rudi, Leonard Wossnig, Carlo Ciliberto, Andrea Rocchetto, Massimiliano
-    Pontil, and Simone Severini. "Approximating Hamiltonian dynamics with the Nyström
-    method", 2020.
-  url: https://quantum-journal.org/papers/q-2020-02-20-234/
+  venue: Advances in Neural Information Processing Systems
+  citation: L. Oneto, M. Donini, G. Luise, C. Ciliberto, A. Maurer, and M. Pontil.
+    "Exploiting mmd and sinkhorn divergences for fair and transferable representation
+    learning". Advances in Neural Information Processing Systems, 2020.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: hyperbolicmanifoldregression2020
-  title: Hyperbolic manifold regression
-  authors: Gian Marconi, Carlo Ciliberto, and Lorenzo Rosasco
+- key: wang2020structured
+  title: Structured prediction for conditional meta-learning
+  authors: R. Wang, Y. Demiris, and C. Ciliberto
   year: '2020'
-  venue: Preprint
-  citation: Gian Marconi, Carlo Ciliberto, and Lorenzo Rosasco. "Hyperbolic manifold
-    regression", 2020.
-  url: https://proceedings.mlr.press/v108/marconi20a.html
+  venue: Advances in Neural Information Processing Systems
+  citation: R. Wang, Y. Demiris, and C. Ciliberto. "Structured prediction for conditional
+    meta-learning". Advances in Neural Information Processing Systems, 2020.
+  url: http://arxiv.org/abs/2002.08799v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: supportweightedadversarial2020
-  title: Support-weighted adversarial imitation learning
-  authors: Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, and Yiannis Demiris
-  year: '2020'
-  venue: Preprint
-  citation: Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, and Yiannis Demiris.
-    "Support-weighted adversarial imitation learning", 2020.
-  url: https://arxiv.org/abs/2002.08803
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: astructuredprediction2020
-  title: A structured prediction approach for conditional meta-learning
-  authors: Ruohan Wang, Yiannis Demiris, and Carlo Ciliberto
-  year: '2020'
-  venue: Preprint
-  citation: Ruohan Wang, Yiannis Demiris, and Carlo Ciliberto. "A structured prediction
-    approach for conditional meta-learning", 2020.
-  url: https://www.researchgate.net/profile/Ruohan-Wang-4/publication/339399115_A_Structured_Prediction_Approach_for_Conditional_Meta-Learning/links/5f813673299bf1b53e1b947e/A-Structured-Prediction-Approach-for-Conditional-Meta-Learning.pdf
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: fastquantumlearning2020
-  title: Fast quantum learning with statistical guarantees
-  authors: Carlo Ciliberto, Andrea Rocchetto, Alessandro Rudi, and Leonard Wossnig
-  year: '2020'
-  venue: Preprint
-  citation: Carlo Ciliberto, Andrea Rocchetto, Alessandro Rudi, and Leonard Wossnig.
-    "Fast quantum learning with statistical guarantees", 2020.
-  url: https://scholar.google.com/scholar?cluster=18181024073616638813&hl=en&oi=scholarr
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: learningtolearn2019
-  title: Learning-to-learn stochastic gradient descent with biased regularization
-  authors: Giulia Denevi, Carlo Ciliberto, Riccardo Grazzi, and Massimiliano Pontil
+- key: pasquale2019we
+  title: Are we done with object recognition? The iCub robot’s perspective
+  authors: G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale
   year: '2019'
-  venue: Preprint
-  citation: Giulia Denevi, Carlo Ciliberto, Riccardo Grazzi, and Massimiliano Pontil.
-    "Learning-to-learn stochastic gradient descent with biased regularization", 2019.
-  url: http://proceedings.mlr.press/v97/denevi19a.html
+  venue: Robotics and Autonomous Systems
+  citation: G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale. "Are we
+    done with object recognition? The iCub robot’s perspective". Robotics and Autonomous
+    Systems, 2019.
+  url: http://arxiv.org/abs/1709.09882v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: randomexpertdistillation2019
+- key: ciliberto2019localized
+  title: Localized structured prediction
+  authors: C. Ciliberto, F. Bach, and A. Rudi
+  year: '2019'
+  venue: Advances in Neural Information Processing Systems
+  citation: C. Ciliberto, F. Bach, and A. Rudi. "Localized structured prediction".
+    Advances in Neural Information Processing Systems, 2019.
+  url: http://arxiv.org/abs/1806.02402v3
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: luise2019leveraging
+  title: Leveraging low-rank relations between surrogate tasks in structured prediction
+  authors: G. Luise, D. Stamos, M. Pontil, and C. Ciliberto
+  year: '2019'
+  venue: International Conference on Machine Learning
+  citation: G. Luise, D. Stamos, M. Pontil, and C. Ciliberto. "Leveraging low-rank
+    relations between surrogate tasks in structured prediction". International Conference
+    on Machine Learning, 2019.
+  url: http://arxiv.org/abs/1903.00667v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: denevi2019learning
+  title: Learning-to-learn stochastic gradient descent with biased regularization
+  authors: G. Denevi, C. Ciliberto, R. Grazzi, and M. Pontil
+  year: '2019'
+  venue: International Conference on Machine Learning
+  citation: G. Denevi, C. Ciliberto, R. Grazzi, and M. Pontil. "Learning-to-learn
+    stochastic gradient descent with biased regularization". International Conference
+    on Machine Learning, 2019.
+  url: http://arxiv.org/abs/1903.10399v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: wang2019random
   title: 'Random expert distillation: Imitation learning via expert policy support
     estimation'
-  authors: Ruohan Wang, Carlo Ciliberto, Pierluigi Vito Amadori, and Yiannis Demiris
+  authors: R. Wang, C. Ciliberto, P. V. Amadori, and Y. Demiris
   year: '2019'
-  venue: Preprint
-  citation: 'Ruohan Wang, Carlo Ciliberto, Pierluigi Vito Amadori, and Yiannis Demiris.
-    "Random expert distillation: Imitation learning via expert policy support estimation",
-    2019.'
-  url: http://proceedings.mlr.press/v97/wang19d.html?ref=https://githubhelp.com
+  venue: International Conference on Machine Learning
+  citation: 'R. Wang, C. Ciliberto, P. V. Amadori, and Y. Demiris. "Random expert
+    distillation: Imitation learning via expert policy support estimation". International
+    Conference on Machine Learning, 2019.'
+  url: http://arxiv.org/abs/1905.06750v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: onlinewithinonline2019
-  title: Online-within-online meta-learning
-  authors: Giulia Denevi, Dimitris Stamos, Carlo Ciliberto, and Massimiliano Pontil
-  year: '2019'
-  venue: Preprint
-  citation: Giulia Denevi, Dimitris Stamos, Carlo Ciliberto, and Massimiliano Pontil.
-    "Online-within-online meta-learning", 2019.
-  url: https://proceedings.neurips.cc/paper/2019/hash/e0e2b58d64fb37a2527329a5ce093d80-Abstract.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: sinkhornbarycenterswith2019
+- key: luise2019sinkhorn
   title: Sinkhorn barycenters with free support via frank-wolfe algorithm
-  authors: Giulia Luise, Saverio Salzo, Massimiliano Pontil, and Carlo Ciliberto
+  authors: G. Luise, S. Salzo, M. Pontil, and C. Ciliberto
   year: '2019'
-  venue: Preprint
-  citation: Giulia Luise, Saverio Salzo, Massimiliano Pontil, and Carlo Ciliberto.
-    "Sinkhorn barycenters with free support via frank-wolfe algorithm", 2019.
-  url: https://proceedings.neurips.cc/paper/2019/hash/9f96f36b7aae3b1ff847c26ac94c604e-Abstract.html
+  venue: Advances in neural information processing systems
+  citation: G. Luise, S. Salzo, M. Pontil, and C. Ciliberto. "Sinkhorn barycenters
+    with free support via frank-wolfe algorithm". Advances in neural information processing
+    systems, 2019.
+  url: http://arxiv.org/abs/1905.13194v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: arewedone2019
-  title: Are we done with object recognition? The iCub robot’s perspective
-  authors: Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale
+- key: denevi2019online
+  title: Online-within-online meta-learning
+  authors: G. Denevi, D. Stamos, C. Ciliberto, and M. Pontil
   year: '2019'
-  venue: Preprint
-  citation: Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale. "Are we done with object recognition? The iCub robot’s perspective",
-    2019.
-  url: https://www.sciencedirect.com/science/article/pii/S0921889018300332
+  venue: Advances in Neural Information Processing Systems
+  citation: G. Denevi, D. Stamos, C. Ciliberto, and M. Pontil. "Online-within-online
+    meta-learning". Advances in Neural Information Processing Systems, 2019.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: localizedstructuredprediction2019
-  title: Localized structured prediction
-  authors: Carlo Ciliberto, Francis Bach, and Alessandro Rudi
-  year: '2019'
-  venue: Preprint
-  citation: Carlo Ciliberto, Francis Bach, and Alessandro Rudi. "Localized structured
-    prediction", 2019.
-  url: https://proceedings.neurips.cc/paper_files/paper/2019/hash/0cbed40c0d920b94126eaf5e707be1f5-Abstract.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: leveraginglowrank2019
-  title: Leveraging low-rank relations between surrogate tasks in structured prediction
-  authors: Giulia Luise, Dimitrios Stamos, Massimiliano Pontil, and Carlo Ciliberto
-  year: '2019'
-  venue: Preprint
-  citation: Giulia Luise, Dimitrios Stamos, Massimiliano Pontil, and Carlo Ciliberto.
-    "Leveraging low-rank relations between surrogate tasks in structured prediction",
-    2019.
-  url: http://proceedings.mlr.press/v97/luise19a
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: quantummachinelearning2018
+- key: ciliberto2018quantum
   title: 'Quantum machine learning: a classical perspective'
-  authors: Carlo Ciliberto, Mark Herbster, Alessandro Davide Ialongo, Massimiliano
-    Pontil, Andrea Rocchetto, Simone Severini, and Leonard Wossnig
+  authors: C. Ciliberto, M. Herbster, A. D. Ialongo, M. Pontil, A. Rocchetto, S. Severini,
+    and L. Wossnig
   year: '2018'
-  venue: Preprint
-  citation: 'Carlo Ciliberto, Mark Herbster, Alessandro Davide Ialongo, Massimiliano
-    Pontil, Andrea Rocchetto, Simone Severini, and Leonard Wossnig. "Quantum machine
-    learning: a classical perspective", 2018.'
-  url: https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2017.0551
+  venue: 'Proceedings of the Royal Society A: Mathematical, Physical and Engineering
+    Sciences'
+  citation: 'C. Ciliberto, M. Herbster, A. D. Ialongo, M. Pontil, A. Rocchetto, S.
+    Severini, and L. Wossnig. "Quantum machine learning: a classical perspective".
+    Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences,
+    2018.'
+  url: http://arxiv.org/abs/1707.08561v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: differentialpropertiesof2018
+- key: denevi2018incremental
+  title: Incremental learning-to-learn with statistical guarantees
+  authors: G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil
+  year: '2018'
+  venue: arXiv preprint arXiv:1803.08089
+  citation: G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil. "Incremental learning-to-learn
+    with statistical guarantees". arXiv preprint arXiv:1803.08089, 2018.
+  url: http://arxiv.org/abs/1803.08089v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: luise2018differential
   title: Differential properties of sinkhorn approximation for learning with wasserstein
     distance
-  authors: Giulia Luise, Alessandro Rudi, Massimiliano Pontil, and Carlo Ciliberto
+  authors: G. Luise, A. Rudi, M. Pontil, and C. Ciliberto
   year: '2018'
-  venue: Preprint
-  citation: Giulia Luise, Alessandro Rudi, Massimiliano Pontil, and Carlo Ciliberto.
-    "Differential properties of sinkhorn approximation for learning with wasserstein
-    distance", 2018.
-  url: https://proceedings.neurips.cc/paper/2018/hash/3fc2c60b5782f641f76bcefc39fb2392-Abstract.html
+  venue: Advances in Neural Information Processing Systems
+  citation: G. Luise, A. Rudi, M. Pontil, and C. Ciliberto. "Differential properties
+    of sinkhorn approximation for learning with wasserstein distance". Advances in
+    Neural Information Processing Systems, 2018.
+  url: http://arxiv.org/abs/1805.11897v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: learningtolearn2018
-  title: Learning to learn around a common mean
-  authors: Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil
-  year: '2018'
-  venue: Preprint
-  citation: Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil.
-    "Learning to learn around a common mean", 2018.
-  url: https://proceedings.neurips.cc/paper/2018/hash/b9a25e422ba96f7572089a00b838c3f8-Abstract.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: incrementallearningto2018
-  title: Incremental learning-to-learn with statistical guarantees
-  authors: Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil
-  year: '2018'
-  venue: Preprint
-  citation: Giulia Denevi, Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil.
-    "Incremental learning-to-learn with statistical guarantees", 2018.
-  url: https://arxiv.org/abs/1803.08089
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: manifoldstructuredprediction2018
+- key: rudi2018manifold
   title: Manifold structured prediction
-  authors: Alessandro Rudi, Carlo Ciliberto, GianMaria Marconi, and Lorenzo Rosasco
+  authors: A. Rudi, C. Ciliberto, G. Marconi, and L. Rosasco
   year: '2018'
-  venue: Preprint
-  citation: Alessandro Rudi, Carlo Ciliberto, GianMaria Marconi, and Lorenzo Rosasco.
-    "Manifold structured prediction", 2018.
-  url: https://proceedings.neurips.cc/paper/2018/hash/f6185f0ef02dcaec414a3171cd01c697-Abstract.html
+  venue: Advances in Neural Information Processing Systems
+  citation: A. Rudi, C. Ciliberto, G. Marconi, and L. Rosasco. "Manifold structured
+    prediction". Advances in Neural Information Processing Systems, 2018.
+  url: http://arxiv.org/abs/1806.09908v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: incrementalrobotlearning2017
-  title: Incremental robot learning of new objects with fixed update time
-  authors: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta
-  year: '2017'
-  venue: Preprint
-  citation: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta. "Incremental robot learning of new objects
-    with fixed update time", 2017.
-  url: https://ieeexplore.ieee.org/abstract/document/7989364/
+- key: denevi2018learning
+  title: Learning to learn around a common mean
+  authors: G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil
+  year: '2018'
+  venue: Advances in neural information processing systems
+  citation: G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil. "Learning to learn
+    around a common mean". Advances in neural information processing systems, 2018.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: consistentmultitasklearning2017
-  title: Consistent multitask learning with nonlinear output relations
-  authors: Carlo Ciliberto, Alessandro Rudi, Lorenzo Rosasco, and Massimiliano Pontil
-  year: '2017'
-  venue: Preprint
-  citation: Carlo Ciliberto, Alessandro Rudi, Lorenzo Rosasco, and Massimiliano Pontil.
-    "Consistent multitask learning with nonlinear output relations", 2017.
-  url: https://proceedings.neurips.cc/paper/2017/hash/b24d516bb65a5a58079f0f3526c87c57-Abstract.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: lowcomputeand2017
-  title: Low compute and fully parallel computer vision with hashmatch
-  authors: Sean Ryan Fanello, Julien Valentin, Adarsh Kowdle, Christoph Rhemann, Vladimir
-    Tankovich, Carlo Ciliberto, Philip Davidson, and Shahram Izadi
-  year: '2017'
-  venue: Preprint
-  citation: Sean Ryan Fanello, Julien Valentin, Adarsh Kowdle, Christoph Rhemann,
-    Vladimir Tankovich, Carlo Ciliberto, Philip Davidson, and Shahram Izadi. "Low
-    compute and fully parallel computer vision with hashmatch", 2017.
-  url: http://openaccess.thecvf.com/content_iccv_2017/html/Fanello_Low_Compute_and_ICCV_2017_paper.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: visualrecognitionfor2017
+- key: fanello2017visual
   title: Visual recognition for humanoid robots
-  authors: Sean Ryan Fanello, Carlo Ciliberto, Nicoletta Noceti, Giorgio Metta, and
-    Francesca Odone
+  authors: S. R. Fanello, C. Ciliberto, N. Noceti, G. Metta, and F. Odone
   year: '2017'
-  venue: Preprint
-  citation: Sean Ryan Fanello, Carlo Ciliberto, Nicoletta Noceti, Giorgio Metta, and
-    Francesca Odone. "Visual recognition for humanoid robots", 2017.
-  url: https://www.sciencedirect.com/science/article/pii/S0921889015301810
+  venue: Robotics and Autonomous Systems
+  citation: S. R. Fanello, C. Ciliberto, N. Noceti, G. Metta, and F. Odone. "Visual
+    recognition for humanoid robots". Robotics and Autonomous Systems, 2017.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: reexamininglowrank2017
-  title: Reexamining low rank matrix factorization for trace norm regularization
-  authors: Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil
-  year: '2017'
-  venue: Preprint
-  citation: Carlo Ciliberto, Dimitris Stamos, and Massimiliano Pontil. "Reexamining
-    low rank matrix factorization for trace norm regularization", 2017.
-  url: https://arxiv.org/abs/1706.08934
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: connectingyarpto2017
-  title: Connecting YARP to the Web with Yarp. js
-  authors: Carlo Ciliberto
-  year: '2017'
-  venue: Preprint
-  citation: Carlo Ciliberto. "Connecting YARP to the Web with Yarp. js", 2017.
-  url: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2017.00067/full
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: teachingrobotsto2017
+- key: camoriano2017teaching
   title: Teaching robots to learn new objects in constant time
-  authors: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta
+  authors: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta
   year: '2017'
-  venue: Preprint
-  citation: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta. "Teaching robots to learn new objects in constant
-    time", 2017.
-  url: https://scholar.google.com/scholar?cluster=16732816206479913490&hl=en&oi=scholarr
+  venue: arXiv preprint arXiv:1605.05045
+  citation: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta. "Teaching robots to learn new objects in constant time". arXiv preprint
+    arXiv:1605.05045, 2017.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: aconsistentregularization2016
-  title: A consistent regularization approach for structured prediction
-  authors: Carlo Ciliberto, Lorenzo Rosasco, and Alessandro Rudi
-  year: '2016'
-  venue: Preprint
-  citation: Carlo Ciliberto, Lorenzo Rosasco, and Alessandro Rudi. "A consistent regularization
-    approach for structured prediction", 2016.
-  url: https://proceedings.neurips.cc/paper/2016/hash/88a839f2f6f1427879fc33ee4acf4f66-Abstract.html
+- key: ciliberto2017consistent
+  title: Consistent multitask learning with nonlinear output relations
+  authors: C. Ciliberto, A. Rudi, L. Rosasco, and M. Pontil
+  year: '2017'
+  venue: Advances in Neural Information Processing Systems
+  citation: C. Ciliberto, A. Rudi, L. Rosasco, and M. Pontil. "Consistent multitask
+    learning with nonlinear output relations". Advances in Neural Information Processing
+    Systems, 2017.
+  url: http://arxiv.org/abs/1705.08118v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: activeperceptionbuilding2016
-  title: 'Active perception: Building objects'' models using tactile exploration'
-  authors: Nawid Jamali, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale
-  year: '2016'
-  venue: Preprint
-  citation: 'Nawid Jamali, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale. "Active
-    perception: Building objects'' models using tactile exploration", 2016.'
-  url: https://ieeexplore.ieee.org/abstract/document/7803275/
+- key: camoriano2017incremental
+  title: Incremental robot learning of new objects with fixed update time
+  authors: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta
+  year: '2017'
+  venue: 2017 IEEE International Conference on Robotics and Automation (ICRA)
+  citation: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta. "Incremental robot learning of new objects with fixed update time". 2017
+    IEEE International Conference on Robotics and Automation (ICRA), 2017.
+  url: http://arxiv.org/abs/1605.05045v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: objectidentificationfrom2016
-  title: Object identification from few examples by improving the invariance of a
-    deep convolutional neural network
-  authors: Giulia Pasquale, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale
-  year: '2016'
-  venue: Preprint
-  citation: Giulia Pasquale, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale.
-    "Object identification from few examples by improving the invariance of a deep
-    convolutional neural network", 2016.
-  url: https://ieeexplore.ieee.org/abstract/document/7759720/
+- key: ciliberto2017reexamining
+  title: Reexamining low rank matrix factorization for trace norm regularization
+  authors: C. Ciliberto, D. Stamos, and M. Pontil
+  year: '2017'
+  venue: arXiv preprint arXiv:1706.08934
+  citation: C. Ciliberto, D. Stamos, and M. Pontil. "Reexamining low rank matrix factorization
+    for trace norm regularization". arXiv preprint arXiv:1706.08934, 2017.
+  url: http://arxiv.org/abs/1706.08934v3
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: enablingdepthdriven2016
+- key: ryan2017low
+  title: Low compute and fully parallel computer vision with hashmatch
+  authors: S. Ryan Fanello, J. Valentin, A. Kowdle, C. Rhemann, V. Tankovich, C. Ciliberto,
+    P. Davidson, and S. Izadi
+  year: '2017'
+  venue: Proceedings of the IEEE International Conference on Computer Vision
+  citation: S. Ryan Fanello, J. Valentin, A. Kowdle, C. Rhemann, V. Tankovich, C.
+    Ciliberto, P. Davidson, and S. Izadi. "Low compute and fully parallel computer
+    vision with hashmatch". Proceedings of the IEEE International Conference on Computer
+    Vision, 2017.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: ciliberto2017connecting
+  title: Connecting YARP to the Web with Yarp. js
+  authors: C. Ciliberto
+  year: '2017'
+  venue: Frontiers in Robotics and AI
+  citation: C. Ciliberto. "Connecting YARP to the Web with Yarp. js". Frontiers in
+    Robotics and AI, 2017.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: pasquale2016enabling
   title: 'Enabling depth-driven visual attention on the icub humanoid robot: Instructions
     for use and new perspectives'
-  authors: Giulia Pasquale, Tanis Mar, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo
-    Natale
+  authors: G. Pasquale, T. Mar, C. Ciliberto, L. Rosasco, and L. Natale
   year: '2016'
-  venue: Preprint
-  citation: 'Giulia Pasquale, Tanis Mar, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo
-    Natale. "Enabling depth-driven visual attention on the icub humanoid robot: Instructions
-    for use and new perspectives", 2016.'
-  url: https://www.frontiersin.org/articles/10.3389/frobt.2016.00035/full
+  venue: Frontiers in Robotics and AI
+  citation: 'G. Pasquale, T. Mar, C. Ciliberto, L. Rosasco, and L. Natale. "Enabling
+    depth-driven visual attention on the icub humanoid robot: Instructions for use
+    and new perspectives". Frontiers in Robotics and AI, 2016.'
+  url: http://arxiv.org/abs/1509.06939v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: combiningsensorymodalities2016
-  title: Combining sensory modalities and exploratory procedures to improve haptic
-    object recognition in robotics
-  authors: Bertrand Higy, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale
-  year: '2016'
-  venue: Preprint
-  citation: Bertrand Higy, Carlo Ciliberto, Lorenzo Rosasco, and Lorenzo Natale. "Combining
-    sensory modalities and exploratory procedures to improve haptic object recognition
-    in robotics", 2016.
-  url: https://ieeexplore.ieee.org/abstract/document/7803263/
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: incrementalobjectrecognition2016
+- key: camoriano2016incremental
   title: Incremental object recognition in robotics with extension to new classes
     in constant time
-  authors: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta
+  authors: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta
   year: '2016'
-  venue: Preprint
-  citation: Raffaello Camoriano, Giulia Pasquale, Carlo Ciliberto, Lorenzo Natale,
-    Lorenzo Rosasco, and Giorgio Metta. "Incremental object recognition in robotics
-    with extension to new classes in constant time", 2016.
-  url: https://www.researchgate.net/profile/Giulia-Pasquale/publication/303301812_Incremental_Object_Recognition_in_Robotics_with_Extension_to_New_Classes_in_Constant_Time/links/575951ed08aed884620ac801/Incremental-Object-Recognition-in-Robotics-with-Extension-to-New-Classes-in-Constant-Time.pdf
+  venue: stat
+  citation: R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, and G.
+    Metta. "Incremental object recognition in robotics with extension to new classes
+    in constant time". stat, 2016.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: convexlearningof2015
+- key: ciliberto2016consistent
+  title: A consistent regularization approach for structured prediction
+  authors: C. Ciliberto, L. Rosasco, and A. Rudi
+  year: '2016'
+  venue: Advances in neural information processing systems
+  citation: C. Ciliberto, L. Rosasco, and A. Rudi. "A consistent regularization approach
+    for structured prediction". Advances in neural information processing systems,
+    2016.
+  url: http://arxiv.org/abs/1605.07588v3
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: pasquale2016object
+  title: Object identification from few examples by improving the invariance of a
+    deep convolutional neural network
+  authors: G. Pasquale, C. Ciliberto, L. Rosasco, and L. Natale
+  year: '2016'
+  venue: 2016 IEEE/RSJ international conference on intelligent robots and systems
+    (IROS)
+  citation: G. Pasquale, C. Ciliberto, L. Rosasco, and L. Natale. "Object identification
+    from few examples by improving the invariance of a deep convolutional neural network".
+    2016 IEEE/RSJ international conference on intelligent robots and systems (IROS),
+    2016.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: jamali2016active
+  title: 'Active perception: Building objects'' models using tactile exploration'
+  authors: N. Jamali, C. Ciliberto, L. Rosasco, and L. Natale
+  year: '2016'
+  venue: 2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)
+  citation: 'N. Jamali, C. Ciliberto, L. Rosasco, and L. Natale. "Active perception:
+    Building objects'' models using tactile exploration". 2016 IEEE-RAS 16th International
+    Conference on Humanoid Robots (Humanoids), 2016.'
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: higy2016combining
+  title: Combining sensory modalities and exploratory procedures to improve haptic
+    object recognition in robotics
+  authors: B. Higy, C. Ciliberto, L. Rosasco, and L. Natale
+  year: '2016'
+  venue: 2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)
+  citation: B. Higy, C. Ciliberto, L. Rosasco, and L. Natale. "Combining sensory modalities
+    and exploratory procedures to improve haptic object recognition in robotics".
+    2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids), 2016.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: ciliberto2015convex
   title: Convex learning of multiple tasks and their structure
-  authors: Carlo Ciliberto, Youssef Mroueh, Tomaso Poggio, and Lorenzo Rosasco
+  authors: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco
   year: '2015'
-  venue: Preprint
-  citation: Carlo Ciliberto, Youssef Mroueh, Tomaso Poggio, and Lorenzo Rosasco. "Convex
-    learning of multiple tasks and their structure", 2015.
-  url: http://proceedings.mlr.press/v37/ciliberto15.html
+  venue: International Conference on Machine Learning
+  citation: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco. "Convex learning of
+    multiple tasks and their structure". International Conference on Machine Learning,
+    2015.
+  url: http://arxiv.org/abs/1504.03101v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: teachingicubto2015
-  title: Teaching icub to recognize objects using deep convolutional neural networks
-  authors: Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale
-  year: '2015'
-  venue: Preprint
-  citation: Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale. "Teaching icub to recognize objects using deep convolutional neural
-    networks", 2015.
-  url: https://proceedings.mlr.press/v43/pasquale15
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: learningmultiplevisual2015
+- key: ciliberto2015learning
   title: Learning multiple visual tasks while discovering their structure
-  authors: Carlo Ciliberto, Lorenzo Rosasco, and Silvia Villa
+  authors: C. Ciliberto, L. Rosasco, and S. Villa
   year: '2015'
-  venue: Preprint
-  citation: Carlo Ciliberto, Lorenzo Rosasco, and Silvia Villa. "Learning multiple
-    visual tasks while discovering their structure", 2015.
-  url: http://openaccess.thecvf.com/content_cvpr_2015/html/Ciliberto_Learning_Multiple_Visual_2015_CVPR_paper.html
+  venue: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+  citation: C. Ciliberto, L. Rosasco, and S. Villa. "Learning multiple visual tasks
+    while discovering their structure". Proceedings of the IEEE Conference on Computer
+    Vision and Pattern Recognition, 2015.
+  url: http://arxiv.org/abs/1504.03106v1
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: realworldobject2015
+- key: pasquale2015real
   title: 'Real-world object recognition with off-the-shelf deep conv nets: How many
     objects can icub learn?'
-  authors: Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale
+  authors: G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale
   year: '2015'
-  venue: Preprint
-  citation: 'Giulia Pasquale, Carlo Ciliberto, Francesca Odone, Lorenzo Rosasco, and
-    Lorenzo Natale. "Real-world object recognition with off-the-shelf deep conv nets:
-    How many objects can icub learn?", 2015.'
-  url: https://arxiv.org/abs/1504.03154
+  venue: arXiv preprint arXiv:1504.03154
+  citation: 'G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale. "Real-world
+    object recognition with off-the-shelf deep conv nets: How many objects can icub
+    learn?". arXiv preprint arXiv:1504.03154, 2015.'
+  url: http://arxiv.org/abs/1504.03154v2
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: characterizingtheinput2015
-  title: Characterizing the Input‐Output Function of the Olfactory‐Limbic Pathway
+- key: pasquale2015teaching
+  title: Teaching icub to recognize objects using deep convolutional neural networks
+  authors: G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale
+  year: '2015'
+  venue: Machine Learning for Interactive Systems
+  citation: G. Pasquale, C. Ciliberto, F. Odone, L. Rosasco, and L. Natale. "Teaching
+    icub to recognize objects using deep convolutional neural networks". Machine Learning
+    for Interactive Systems, 2015.
+  url: ''
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: breschi2015characterizing
+  title: Characterizing the Input-Output Function of the Olfactory-Limbic Pathway
     in the Guinea Pig
-  authors: Gian Luca Breschi, Carlo Ciliberto, Thierry Nieus, Lorenzo Rosasco, Stefano
-    Taverna, Michela Chiappalone, and Valentina Pasquale
+  authors: G. L. Breschi, C. Ciliberto, T. Nieus, L. Rosasco, S. Taverna, M. Chiappalone,
+    and V. Pasquale
   year: '2015'
-  venue: Preprint
-  citation: Gian Luca Breschi, Carlo Ciliberto, Thierry Nieus, Lorenzo Rosasco, Stefano
-    Taverna, Michela Chiappalone, and Valentina Pasquale. "Characterizing the Input‐Output
-    Function of the Olfactory‐Limbic Pathway in the Guinea Pig", 2015.
-  url: https://onlinelibrary.wiley.com/doi/abs/10.1155/2015/359590
+  venue: Computational Intelligence and Neuroscience
+  citation: G. L. Breschi, C. Ciliberto, T. Nieus, L. Rosasco, S. Taverna, M. Chiappalone,
+    and V. Pasquale. "Characterizing the Input-Output Function of the Olfactory-Limbic
+    Pathway in the Guinea Pig". Computational Intelligence and Neuroscience, 2015.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: asktheimage2014
+- key: ryan2014ask
   title: 'Ask the image: supervised pooling to preserve feature locality'
-  authors: Sean Ryan Fanello, Nicoletta Noceti, Carlo Ciliberto, Giorgio Metta, and
-    Francesca Odone
+  authors: S. Ryan Fanello, N. Noceti, C. Ciliberto, G. Metta, and F. Odone
   year: '2014'
-  venue: Preprint
-  citation: 'Sean Ryan Fanello, Nicoletta Noceti, Carlo Ciliberto, Giorgio Metta,
-    and Francesca Odone. "Ask the image: supervised pooling to preserve feature locality",
-    2014.'
-  url: https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Fanello_Ask_the_Image_2014_CVPR_paper.html
+  venue: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
+  citation: 'S. Ryan Fanello, N. Noceti, C. Ciliberto, G. Metta, and F. Odone. "Ask
+    the image: supervised pooling to preserve feature locality". Proceedings of the
+    IEEE Conference on Computer Vision and Pattern Recognition, 2014.'
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: exploitingglobalforce2014
+- key: ciliberto2014exploiting
   title: Exploiting global force torque measurements for local compliance estimation
     in tactile arrays
-  authors: Carlo Ciliberto, Luca Fiorio, Marco Maggiali, Lorenzo Natale, Lorenzo Rosasco,
-    Giorgio Metta, Giulio Sandini, and Francesco Nori
+  authors: C. Ciliberto, L. Fiorio, M. Maggiali, L. Natale, L. Rosasco, G. Metta,
+    G. Sandini, and F. Nori
   year: '2014'
-  venue: Preprint
-  citation: Carlo Ciliberto, Luca Fiorio, Marco Maggiali, Lorenzo Natale, Lorenzo
-    Rosasco, Giorgio Metta, Giulio Sandini, and Francesco Nori. "Exploiting global
-    force torque measurements for local compliance estimation in tactile arrays",
-    2014.
-  url: https://ieeexplore.ieee.org/abstract/document/6943124/
+  venue: 2014 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  citation: C. Ciliberto, L. Fiorio, M. Maggiali, L. Natale, L. Rosasco, G. Metta,
+    G. Sandini, and F. Nori. "Exploiting global force torque measurements for local
+    compliance estimation in tactile arrays". 2014 IEEE/RSJ International Conference
+    on Intelligent Robots and Systems, 2014.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: icubworldfriendly2013
-  title: 'icub world: Friendly robots help building good vision data-sets'
-  authors: Sean Fanello, Carlo Ciliberto, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, Lorenzo Rosasco, and Francesca Odone
-  year: '2013'
-  venue: Preprint
-  citation: 'Sean Fanello, Carlo Ciliberto, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, Lorenzo Rosasco, and Francesca Odone. "icub world: Friendly robots help
-    building good vision data-sets", 2013.'
-  url: https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2013/W21/html/Fanello_iCub_World_Friendly_2013_CVPR_paper.html
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: weaklysupervisedstrategies2013
+- key: fanello2013weakly
   title: Weakly supervised strategies for natural object recognition in robotics
-  authors: Sean Ryan Fanello, Carlo Ciliberto, Lorenzo Natale, and Giorgio Metta
+  authors: S. R. Fanello, C. Ciliberto, L. Natale, and G. Metta
   year: '2013'
-  venue: Preprint
-  citation: Sean Ryan Fanello, Carlo Ciliberto, Lorenzo Natale, and Giorgio Metta.
-    "Weakly supervised strategies for natural object recognition in robotics", 2013.
-  url: https://ieeexplore.ieee.org/abstract/document/6631174/
+  venue: 2013 IEEE International Conference on Robotics and Automation
+  citation: S. R. Fanello, C. Ciliberto, L. Natale, and G. Metta. "Weakly supervised
+    strategies for natural object recognition in robotics". 2013 IEEE International
+    Conference on Robotics and Automation, 2013.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: ontheimpact2013
+- key: fanello2013icub
+  title: 'icub world: Friendly robots help building good vision data-sets'
+  authors: S. Fanello, C. Ciliberto, M. Santoro, L. Natale, G. Metta, L. Rosasco,
+    and F. Odone
+  year: '2013'
+  venue: Proceedings of the IEEE conference on computer vision and pattern recognition
+    workshops
+  citation: 'S. Fanello, C. Ciliberto, M. Santoro, L. Natale, G. Metta, L. Rosasco,
+    and F. Odone. "icub world: Friendly robots help building good vision data-sets".
+    Proceedings of the IEEE conference on computer vision and pattern recognition
+    workshops, 2013.'
+  url: http://arxiv.org/abs/1306.3560v1
+  code: ''
+  slides: ''
+  video: ''
+  abstract: ''
+- key: ciliberto2013impact
   title: On the impact of learning hierarchical representations for visual recognition
     in robotics
-  authors: Carlo Ciliberto, Sean Ryan Fanello, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, and Lorenzo Rosasco
+  authors: C. Ciliberto, S. R. Fanello, M. Santoro, L. Natale, G. Metta, and L. Rosasco
   year: '2013'
-  venue: Preprint
-  citation: Carlo Ciliberto, Sean Ryan Fanello, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, and Lorenzo Rosasco. "On the impact of learning hierarchical representations
-    for visual recognition in robotics", 2013.
-  url: https://ieeexplore.ieee.org/abstract/document/6696893/
+  venue: Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference
+    on
+  citation: C. Ciliberto, S. R. Fanello, M. Santoro, L. Natale, G. Metta, and L. Rosasco.
+    "On the impact of learning hierarchical representations for visual recognition
+    in robotics". Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International
+    Conference on, 2013.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: learninghierarchicalrepresentations2013
+- key: ciliberto2013learning
   title: Learning Hierarchical Representations for Visual Recognition in Robotics
-  authors: Carlo Ciliberto, Sean Ryan Fanello, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, Tomaso Poggio, and Lorenzo Rosasco
+  authors: C. Ciliberto, S. R. Fanello, M. Santoro, L. Natale, G. Metta, T. Poggio,
+    and L. Rosasco
   year: '2013'
   venue: Preprint
-  citation: Carlo Ciliberto, Sean Ryan Fanello, Matteo Santoro, Lorenzo Natale, Giorgio
-    Metta, Tomaso Poggio, and Lorenzo Rosasco. "Learning Hierarchical Representations
-    for Visual Recognition in Robotics", 2013.
-  url: https://scholar.google.com/scholar?cluster=17104683512609067084&hl=en&oi=scholarr
+  citation: C. Ciliberto, S. R. Fanello, M. Santoro, L. Natale, G. Metta, T. Poggio,
+    and L. Rosasco. "Learning Hierarchical Representations for Visual Recognition
+    in Robotics", 2013.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: aheteroscedasticapproach2012
+- key: ciliberto2012heteroscedastic
   title: A heteroscedastic approach to independent motion detection for actuated visual
     sensors
-  authors: Carlo Ciliberto, Sean Ryan Fanello, Lorenzo Natale, and Giorgio Metta
+  authors: C. Ciliberto, S. R. Fanello, L. Natale, and G. Metta
   year: '2012'
-  venue: Preprint
-  citation: Carlo Ciliberto, Sean Ryan Fanello, Lorenzo Natale, and Giorgio Metta.
-    "A heteroscedastic approach to independent motion detection for actuated visual
-    sensors", 2012.
-  url: https://ieeexplore.ieee.org/abstract/document/6385943/
+  venue: 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  citation: C. Ciliberto, S. R. Fanello, L. Natale, and G. Metta. "A heteroscedastic
+    approach to independent motion detection for actuated visual sensors". 2012 IEEE/RSJ
+    International Conference on Intelligent Robots and Systems, 2012.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: reexamininglucaskanade2011
+- key: ciliberto2011reexamining
   title: 'Reexamining lucas-kanade method for real-time independent motion detection:
     Application to the icub humanoid robot'
-  authors: Carlo Ciliberto, Ugo Pattacini, Lorenzo Natale, Francesco Nori, and Giorgio
-    Metta
+  authors: C. Ciliberto, U. Pattacini, L. Natale, F. Nori, and G. Metta
   year: '2011'
-  venue: Preprint
-  citation: 'Carlo Ciliberto, Ugo Pattacini, Lorenzo Natale, Francesco Nori, and Giorgio
-    Metta. "Reexamining lucas-kanade method for real-time independent motion detection:
-    Application to the icub humanoid robot", 2011.'
-  url: https://ieeexplore.ieee.org/abstract/document/6094985/
+  venue: 2011 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  citation: 'C. Ciliberto, U. Pattacini, L. Natale, F. Nori, and G. Metta. "Reexamining
+    lucas-kanade method for real-time independent motion detection: Application to
+    the icub humanoid robot". 2011 IEEE/RSJ International Conference on Intelligent
+    Robots and Systems, 2011.'
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: onlinemultipleinstance2011
+- key: ciliberto2011online
   title: Online multiple instance learning applied to hand detection in a humanoid
     robot
-  authors: Carlo Ciliberto, Fabrizio Smeraldi, Lorenzo Natale, and Giorgio Metta
+  authors: C. Ciliberto, F. Smeraldi, L. Natale, and G. Metta
   year: '2011'
-  venue: Preprint
-  citation: Carlo Ciliberto, Fabrizio Smeraldi, Lorenzo Natale, and Giorgio Metta.
-    "Online multiple instance learning applied to hand detection in a humanoid robot",
-    2011.
-  url: https://ieeexplore.ieee.org/abstract/document/6095002/
+  venue: 2011 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  citation: C. Ciliberto, F. Smeraldi, L. Natale, and G. Metta. "Online multiple instance
+    learning applied to hand detection in a humanoid robot". 2011 IEEE/RSJ International
+    Conference on Intelligent Robots and Systems, 2011.
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: deeptabularlearning
-  title: Deep Tabular Learning via Distillation and Language Guidance
-  authors: Ruohan Wang, Wenhao Fu, and Carlo Ciliberto
+- key: wangsupport
+  title: Support-guided Adversarial Imitation Learning
+  authors: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris
   year: ''
   venue: Preprint
-  citation: Ruohan Wang, Wenhao Fu, and Carlo Ciliberto. "Deep Tabular Learning via
-    Distillation and Language Guidance".
-  url: https://openreview.net/forum?id=p6KIteShzf
+  citation: R. Wang, C. Ciliberto, P. Amadori, and Y. Demiris. "Support-guided Adversarial
+    Imitation Learning".
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: aconsistentregularization
-  title: 'A Consistent Regularization Approach to Structured Prediction: Supplementary
-    material'
-  authors: Carlo Ciliberto, Alessandro Rudi, and Lorenzo Rosasco
+- key: cilibertogeneral
+  title: A General Convex Framework for Output Kernel Learning
+  authors: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco
   year: ''
   venue: Preprint
-  citation: 'Carlo Ciliberto, Alessandro Rudi, and Lorenzo Rosasco. "A Consistent
-    Regularization Approach to Structured Prediction: Supplementary material".'
-  url: https://proceedings.neurips.cc/paper_files/paper/2016/file/88a839f2f6f1427879fc33ee4acf4f66-Supplemental.zip
+  citation: C. Ciliberto, Y. Mroueh, T. Poggio, and L. Rosasco. "A General Convex
+    Framework for Output Kernel Learning".
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: implicitkernelmeta
+- key: falkimplicit
   title: Implicit Kernel Meta-Learning Using Kernel Integral Forms (Supplementary
     Material)
-  authors: John Isak Texas Falk, Carlo Ciliberto, and Massimiliano Pontil
+  authors: J. I. T. Falk, C. Ciliberto, and M. Pontil
   year: ''
   venue: Preprint
-  citation: John Isak Texas Falk, Carlo Ciliberto, and Massimiliano Pontil. "Implicit
-    Kernel Meta-Learning Using Kernel Integral Forms (Supplementary Material)".
-  url: https://proceedings.mlr.press/v180/falk22a/falk22a-supp.pdf
+  citation: J. I. T. Falk, C. Ciliberto, and M. Pontil. "Implicit Kernel Meta-Learning
+    Using Kernel Integral Forms (Supplementary Material)".
+  url: ''
   code: ''
   slides: ''
   video: ''
   abstract: ''
-- key: ageneralconvex
-  title: A General Convex Framework for Output Kernel Learning
-  authors: Carlo Ciliberto, Youssef Mroueh, Tomaso Poggio, and Lorenzo Rosasco
+- key: cilibertoconsistent
+  title: 'A Consistent Regularization Approach to Structured Prediction: Supplementary
+    material'
+  authors: C. Ciliberto, A. Rudi, and L. Rosasco
   year: ''
   venue: Preprint
-  citation: Carlo Ciliberto, Youssef Mroueh, Tomaso Poggio, and Lorenzo Rosasco. "A
-    General Convex Framework for Output Kernel Learning".
-  url: https://scholar.google.com/scholar?cluster=10481894341733758372&hl=en&oi=scholarr
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: supportguidedadversarial
-  title: Support-guided Adversarial Imitation Learning
-  authors: Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, and Yiannis Demiris
-  year: ''
-  venue: Preprint
-  citation: Ruohan Wang, Carlo Ciliberto, Pierluigi Amadori, and Yiannis Demiris.
-    "Support-guided Adversarial Imitation Learning".
-  url: https://openreview.net/forum?id=r1x3unVKPS
-  code: ''
-  slides: ''
-  video: ''
-  abstract: ''
-- key: gurls
-  title: GURLS
-  authors: Alessandro Rudi, Carlo Ciliberto, and Lorenzo Rosasco
-  year: ''
-  venue: Preprint
-  citation: Alessandro Rudi, Carlo Ciliberto, and Lorenzo Rosasco. "GURLS".
-  url: https://lcsl.dibris.unige.it/courses/mlcc/slides/older/gurls.pdf
+  citation: 'C. Ciliberto, A. Rudi, and L. Rosasco. "A Consistent Regularization Approach
+    to Structured Prediction: Supplementary material".'
+  url: ''
   code: ''
   slides: ''
   video: ''
